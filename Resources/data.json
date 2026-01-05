@@ -17618,6 +17618,36 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Four-Star Raid Boss (September 2024 Community Day)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 5
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 6
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 12
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 16
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
         }
       ]
     },
@@ -22605,6 +22635,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Three-Star Raid Boss (New Year\u0027s 2026, No Costume)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 5
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 5
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Raid Boss"
         }
       ]
     },
@@ -23091,6 +23136,36 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 5
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 6
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 12
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 16
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Raid Boss"
         }
       ]
     },
@@ -23632,6 +23707,36 @@
           "Type": 110,
           "LocalizedStart": true,
           "Comment": "One-Star Power Spot Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 5
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 6
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 12
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 16
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
         }
       ]
     },
@@ -32499,6 +32604,36 @@
           "Type": 13,
           "LocalizedStart": true,
           "Comment": "Three-Star Shadow Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 5
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 6
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 12
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 16
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Raid Boss"
         }
       ]
     },
@@ -57090,6 +57225,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 5
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 5
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
         }
       ]
     },
@@ -68102,6 +68252,21 @@
         },
         {
           "Start": {
+            "Y": 2025,
+            "M": 12,
+            "D": 31
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 5
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Mega Raid Boss"
+        },
+        {
+          "Start": {
             "Y": 2026,
             "M": 3,
             "D": 1
@@ -68328,6 +68493,22 @@
             "Y": 2025,
             "M": 7,
             "D": 28
+          },
+          "Shiny": 1,
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 5
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 5
           },
           "Shiny": 1,
           "Type": 10,
@@ -83287,6 +83468,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss (D\u00EDa de Muertos 2025, No Costume)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 5
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 5
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
         }
       ]
     },
@@ -104725,6 +104921,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 5
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 5
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
         }
       ]
     },
@@ -106047,6 +106258,21 @@
             "Y": 2025,
             "M": 7,
             "D": 22
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 5
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 5
           },
           "Type": 10,
           "LocalizedStart": true,
@@ -124237,6 +124463,38 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Three-Star Raid Boss (Anaheim 2025 Pok\u00E9mon World Championships)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 5
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 6
+          },
+          "Shiny": 1,
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 12
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 16
+          },
+          "Shiny": 1,
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Raid Boss"
         }
       ]
     },
@@ -134440,6 +134698,36 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 5
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 6
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 12
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 16
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
         }
       ]
     },
@@ -137785,13 +138073,13 @@
             "D": 31
           },
           "End": {
-            "Y": 2025,
-            "M": 12,
-            "D": 31
+            "Y": 2026,
+            "M": 1,
+            "D": 5
           },
           "Type": 10,
           "LocalizedStart": true,
-          "Comment": "Five-Star Raid Boss (Raid Hour)"
+          "Comment": "Five-Star Raid Boss"
         }
       ]
     },
@@ -138412,6 +138700,38 @@
           "Type": 110,
           "LocalizedStart": true,
           "Comment": "One-Star Power Spot Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 5
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 6
+          },
+          "Shiny": 1,
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 12
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 16
+          },
+          "Shiny": 1,
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
         }
       ]
     },
@@ -143090,6 +143410,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Three-Star Raid Boss (Journey to Paldea)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 5
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 5
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Raid Boss"
         }
       ]
     },
