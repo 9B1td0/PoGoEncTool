@@ -101760,6 +101760,21 @@
           "Type": 90,
           "LocalizedStart": true,
           "Comment": "Reward Encounter (Pok\u00E9mon GO: Tales of Transformation)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 16
+          },
+          "End": {
+            "Y": 2026,
+            "M": 2,
+            "D": 5
+          },
+          "Type": 29,
+          "LocalizedStart": true,
+          "Comment": "GO Pass: January 2026"
         }
       ]
     },
@@ -138414,6 +138429,16 @@
           "Start": {
             "Y": 2026,
             "M": 1,
+            "D": 8
+          },
+          "Type": 20,
+          "LocalizedStart": true,
+          "Comment": "January 2026 Community Day (Released Early)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
             "D": 18
           },
           "Type": 1,
@@ -142815,6 +142840,16 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 20
+          },
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "Precious Pals"
         }
       ]
     },
@@ -143006,6 +143041,16 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 13
+          },
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "High Zaptitude"
         }
       ]
     },
@@ -143983,6 +144028,22 @@
           "Type": 29,
           "LocalizedStart": true,
           "Comment": "GO Pass Deluxe: December 2025"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 13
+          },
+          "End": {
+            "Y": 2026,
+            "M": 2,
+            "D": 5
+          },
+          "Shiny": 1,
+          "Type": 29,
+          "LocalizedStart": true,
+          "Comment": "GO Pass Deluxe: January 2026"
         }
       ]
     },
@@ -144022,6 +144083,22 @@
           "Type": 29,
           "LocalizedStart": true,
           "Comment": "GO Pass Deluxe: December 2025"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 13
+          },
+          "End": {
+            "Y": 2026,
+            "M": 2,
+            "D": 5
+          },
+          "Shiny": 1,
+          "Type": 29,
+          "LocalizedStart": true,
+          "Comment": "GO Pass Deluxe: January 2026"
         }
       ]
     },
