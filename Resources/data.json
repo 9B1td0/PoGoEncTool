@@ -4821,6 +4821,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 16
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 25
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
         }
       ]
     },
@@ -5964,6 +5979,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss (New Year\u0027s 2026, No Costume)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 25
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 25
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss (Pyeongchang Winter Festival 2026, No Costume)"
         },
         {
           "Start": {
@@ -7187,6 +7217,22 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2024,
+            "M": 1,
+            "D": 27
+          },
+          "End": {
+            "Y": 2024,
+            "M": 3,
+            "D": 26
+          },
+          "Shiny": 1,
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "One-Star Shadow Raid Boss"
         },
         {
           "Start": {
@@ -10065,6 +10111,22 @@
         },
         {
           "Start": {
+            "Y": 2023,
+            "M": 8,
+            "D": 19
+          },
+          "End": {
+            "Y": 2023,
+            "M": 8,
+            "D": 22
+          },
+          "Shiny": 1,
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "One-Star Shadow Raid Boss (Noxious Swamp)"
+        },
+        {
+          "Start": {
             "Y": 2024,
             "M": 1,
             "D": 25
@@ -10154,6 +10216,22 @@
           "Shiny": 1,
           "Type": 254,
           "Comment": "Version 0.269.0 Premier Ball Issue"
+        },
+        {
+          "Start": {
+            "Y": 2023,
+            "M": 10,
+            "D": 26
+          },
+          "End": {
+            "Y": 2023,
+            "M": 10,
+            "D": 31
+          },
+          "Shiny": 1,
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Shadow Raid Boss (Halloween 2023 Part II \u2013 Team GO Rocket Takeover)"
         },
         {
           "Start": {
@@ -11690,6 +11768,36 @@
         },
         {
           "Start": {
+            "Y": 2023,
+            "M": 9,
+            "D": 1
+          },
+          "End": {
+            "Y": 2023,
+            "M": 10,
+            "D": 25
+          },
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "One-Star Shadow Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2023,
+            "M": 11,
+            "D": 1
+          },
+          "End": {
+            "Y": 2023,
+            "M": 12,
+            "D": 1
+          },
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "One-Star Shadow Raid Boss"
+        },
+        {
+          "Start": {
             "Y": 2024,
             "M": 8,
             "D": 8
@@ -12044,13 +12152,13 @@
             "D": 3
           },
           "End": {
-            "Y": 2025,
-            "M": 12,
-            "D": 2
+            "Y": 2026,
+            "M": 3,
+            "D": 3
           },
           "Type": 1,
           "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation"
+          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation / Precious Paths"
         },
         {
           "Start": {
@@ -12289,12 +12397,12 @@
             "D": 15
           },
           "End": {
-            "Y": 2025,
-            "M": 12,
-            "D": 2
+            "Y": 2026,
+            "M": 3,
+            "D": 3
           },
           "Type": 1,
-          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation"
+          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation / Precious Paths"
         },
         {
           "Start": {
@@ -14344,6 +14452,22 @@
         {
           "Start": {
             "Y": 2023,
+            "M": 6,
+            "D": 5
+          },
+          "End": {
+            "Y": 2023,
+            "M": 8,
+            "D": 19
+          },
+          "Shiny": 1,
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "One-Star Shadow Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2023,
             "M": 7,
             "D": 15
           },
@@ -14385,6 +14509,22 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2023,
+            "M": 8,
+            "D": 23
+          },
+          "End": {
+            "Y": 2023,
+            "M": 9,
+            "D": 1
+          },
+          "Shiny": 1,
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "One-Star Shadow Raid Boss"
         },
         {
           "Start": {
@@ -15057,6 +15197,21 @@
           "Type": 100,
           "LocalizedStart": true,
           "Comment": "Team GO Rocket Grunt"
+        },
+        {
+          "Start": {
+            "Y": 2024,
+            "M": 10,
+            "D": 8
+          },
+          "End": {
+            "Y": 2025,
+            "M": 1,
+            "D": 14
+          },
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "One-Star Shadow Raid Boss"
         },
         {
           "Start": {
@@ -15881,12 +16036,42 @@
         {
           "Start": {
             "Y": 2023,
+            "M": 5,
+            "D": 22
+          },
+          "End": {
+            "Y": 2023,
+            "M": 5,
+            "D": 28
+          },
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "One-Star Shadow Raid Boss (Rising Shadows)"
+        },
+        {
+          "Start": {
+            "Y": 2023,
             "M": 10,
             "D": 26
           },
           "Type": 100,
           "LocalizedStart": true,
           "Comment": "Team GO Rocket Decoy Grunt"
+        },
+        {
+          "Start": {
+            "Y": 2025,
+            "M": 8,
+            "D": 11
+          },
+          "End": {
+            "Y": 2025,
+            "M": 9,
+            "D": 15
+          },
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "One-Star Shadow Raid Boss"
         }
       ]
     },
@@ -16071,6 +16256,36 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Three-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 2,
+            "D": 20
+          },
+          "End": {
+            "Y": 2026,
+            "M": 2,
+            "D": 22
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Mega Raid Boss (Pok\u00E9mon GO Tour: Kalos \u2013 Tainan / Los Angeles)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 2,
+            "D": 28
+          },
+          "End": {
+            "Y": 2026,
+            "M": 2,
+            "D": 28
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Mega Raid Boss (Pok\u00E9mon GO Tour: Kalos \u2013 Global, Day 1)"
         }
       ]
     },
@@ -18005,13 +18220,13 @@
             "D": 3
           },
           "End": {
-            "Y": 2025,
-            "M": 12,
-            "D": 2
+            "Y": 2026,
+            "M": 3,
+            "D": 3
           },
           "Type": 1,
           "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation"
+          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation / Precious Paths"
         },
         {
           "Start": {
@@ -19178,6 +19393,36 @@
           "Type": 100,
           "LocalizedStart": true,
           "Comment": "Team GO Rocket Grunt"
+        },
+        {
+          "Start": {
+            "Y": 2024,
+            "M": 8,
+            "D": 16
+          },
+          "End": {
+            "Y": 2024,
+            "M": 8,
+            "D": 20
+          },
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "One-Star Shadow Raid Boss (Honolulu 2024 Pok\u00E9mon World Championships)"
+        },
+        {
+          "Start": {
+            "Y": 2025,
+            "M": 5,
+            "D": 14
+          },
+          "End": {
+            "Y": 2025,
+            "M": 8,
+            "D": 10
+          },
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "One-Star Shadow Raid Boss"
         }
       ]
     },
@@ -19909,12 +20154,12 @@
             "D": 15
           },
           "End": {
-            "Y": 2025,
-            "M": 12,
-            "D": 2
+            "Y": 2026,
+            "M": 3,
+            "D": 3
           },
           "Type": 1,
-          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation"
+          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation / Precious Paths"
         },
         {
           "Start": {
@@ -20633,6 +20878,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss (Noxious Swamp)"
+        },
+        {
+          "Start": {
+            "Y": 2023,
+            "M": 10,
+            "D": 26
+          },
+          "End": {
+            "Y": 2023,
+            "M": 10,
+            "D": 31
+          },
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "One-Star Shadow Raid Boss (Halloween 2023 Part II \u2013 Team GO Rocket Takeover)"
         },
         {
           "Start": {
@@ -21693,6 +21953,22 @@
           },
           "Type": 254,
           "Comment": "Version 0.269.0 Premier Ball Issue"
+        },
+        {
+          "Start": {
+            "Y": 2023,
+            "M": 10,
+            "D": 26
+          },
+          "End": {
+            "Y": 2023,
+            "M": 10,
+            "D": 31
+          },
+          "Shiny": 1,
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "One-Star Shadow Raid Boss (Halloween 2023 Part II \u2013 Team GO Rocket Takeover)"
         },
         {
           "Start": {
@@ -23406,6 +23682,11 @@
             "M": 11,
             "D": 18
           },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 22
+          },
           "Type": 13,
           "LocalizedStart": true,
           "Comment": "One-Star Shadow Raid Boss"
@@ -24495,13 +24776,13 @@
             "D": 3
           },
           "End": {
-            "Y": 2025,
-            "M": 12,
-            "D": 2
+            "Y": 2026,
+            "M": 3,
+            "D": 3
           },
           "Type": 1,
           "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation"
+          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation / Precious Paths"
         },
         {
           "Start": {
@@ -26675,6 +26956,17 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Three-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 23
+          },
+          "Shiny": 1,
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Shadow Raid Boss"
         }
       ]
     },
@@ -26872,9 +27164,14 @@
             "M": 12,
             "D": 11
           },
+          "End": {
+            "Y": 2025,
+            "M": 12,
+            "D": 16
+          },
           "Type": 110,
           "LocalizedStart": true,
-          "Comment": "Three-Star Power Spot Boss"
+          "Comment": "Three-Star Power Spot Boss (Well Armed)"
         }
       ]
     },
@@ -27090,9 +27387,14 @@
             "M": 12,
             "D": 11
           },
+          "End": {
+            "Y": 2025,
+            "M": 12,
+            "D": 16
+          },
           "Type": 110,
           "LocalizedStart": true,
-          "Comment": "Three-Star Power Spot Boss"
+          "Comment": "Three-Star Power Spot Boss (Well Armed)"
         }
       ]
     },
@@ -31394,6 +31696,11 @@
             "M": 11,
             "D": 18
           },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 22
+          },
           "Type": 13,
           "LocalizedStart": true,
           "Comment": "Three-Star Shadow Raid Boss"
@@ -33709,6 +34016,11 @@
             "M": 5,
             "D": 8
           },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 22
+          },
           "Shiny": 1,
           "Type": 100,
           "LocalizedStart": true,
@@ -33757,6 +34069,16 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss (Pok\u00E9mon Concierge Celebration Event)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 23
+          },
+          "Type": 100,
+          "LocalizedStart": true,
+          "Comment": "Team GO Rocket Leader Cliff"
         }
       ]
     },
@@ -34969,6 +35291,16 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Three-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 23
+          },
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Shadow Raid Boss"
         }
       ]
     },
@@ -37477,6 +37809,11 @@
             "M": 11,
             "D": 18
           },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 22
+          },
           "Type": 13,
           "LocalizedStart": true,
           "Comment": "Three-Star Shadow Raid Boss"
@@ -38830,6 +39167,21 @@
           "Type": 110,
           "LocalizedStart": true,
           "Comment": "Five-Star Power Spot Boss (Dark Skies, Days 2 and 3)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 20
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 20
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Five-Star Raid Boss (Pok\u00E9Park KANTO Pre-Opening)"
         }
       ]
     },
@@ -40436,6 +40788,21 @@
         },
         {
           "Start": {
+            "Y": 2024,
+            "M": 8,
+            "D": 16
+          },
+          "End": {
+            "Y": 2024,
+            "M": 8,
+            "D": 20
+          },
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "One-Star Shadow Raid Boss (Honolulu 2024 Pok\u00E9mon World Championships)"
+        },
+        {
+          "Start": {
             "Y": 2025,
             "M": 6,
             "D": 23
@@ -40448,6 +40815,16 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 23
+          },
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "One-Star Shadow Raid Boss"
         }
       ]
     },
@@ -44429,6 +44806,22 @@
         {
           "Start": {
             "Y": 2023,
+            "M": 6,
+            "D": 5
+          },
+          "End": {
+            "Y": 2023,
+            "M": 8,
+            "D": 19
+          },
+          "Shiny": 1,
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "One-Star Shadow Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2023,
             "M": 7,
             "D": 13
           },
@@ -44440,6 +44833,22 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2023,
+            "M": 8,
+            "D": 23
+          },
+          "End": {
+            "Y": 2023,
+            "M": 9,
+            "D": 1
+          },
+          "Shiny": 1,
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "One-Star Shadow Raid Boss"
         },
         {
           "Start": {
@@ -45920,6 +46329,16 @@
           "Type": 100,
           "LocalizedStart": true,
           "Comment": "Team GO Rocket Grunt"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 23
+          },
+          "Type": 100,
+          "LocalizedStart": true,
+          "Comment": "Team GO Rocket Leader Sierra"
         }
       ]
     },
@@ -46497,6 +46916,22 @@
           "Start": {
             "Y": 2023,
             "M": 9,
+            "D": 1
+          },
+          "End": {
+            "Y": 2023,
+            "M": 10,
+            "D": 25
+          },
+          "Shiny": 1,
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "One-Star Shadow Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2023,
+            "M": 9,
             "D": 16
           },
           "End": {
@@ -46507,6 +46942,22 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2023,
+            "M": 11,
+            "D": 1
+          },
+          "End": {
+            "Y": 2023,
+            "M": 12,
+            "D": 1
+          },
+          "Shiny": 1,
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "One-Star Shadow Raid Boss"
         },
         {
           "Start": {
@@ -46593,6 +47044,22 @@
           "Type": 100,
           "LocalizedStart": true,
           "Comment": "Team GO Rocket Grunt"
+        },
+        {
+          "Start": {
+            "Y": 2024,
+            "M": 8,
+            "D": 8
+          },
+          "End": {
+            "Y": 2024,
+            "M": 9,
+            "D": 3
+          },
+          "Shiny": 1,
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "One-Star Shadow Raid Boss"
         }
       ]
     },
@@ -47480,6 +47947,21 @@
             "M": 3,
             "D": 26
           },
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "One-Star Shadow Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2024,
+            "M": 1,
+            "D": 27
+          },
+          "End": {
+            "Y": 2024,
+            "M": 3,
+            "D": 26
+          },
           "Type": 100,
           "LocalizedStart": true,
           "Comment": "Team GO Rocket Grunt"
@@ -48011,6 +48493,22 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2023,
+            "M": 10,
+            "D": 26
+          },
+          "End": {
+            "Y": 2023,
+            "M": 10,
+            "D": 31
+          },
+          "Shiny": 1,
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "One-Star Shadow Raid Boss (Halloween 2023 Part II \u2013 Team GO Rocket Takeover)"
         },
         {
           "Start": {
@@ -54458,6 +54956,11 @@
             "M": 9,
             "D": 16
           },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 22
+          },
           "Type": 100,
           "LocalizedStart": true,
           "Comment": "Team GO Rocket Leader Arlo"
@@ -54903,6 +55406,21 @@
         {
           "Start": {
             "Y": 2023,
+            "M": 9,
+            "D": 1
+          },
+          "End": {
+            "Y": 2023,
+            "M": 10,
+            "D": 25
+          },
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "One-Star Shadow Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2023,
             "M": 10,
             "D": 6
           },
@@ -54914,6 +55432,36 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2023,
+            "M": 11,
+            "D": 1
+          },
+          "End": {
+            "Y": 2023,
+            "M": 12,
+            "D": 1
+          },
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "One-Star Shadow Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2024,
+            "M": 1,
+            "D": 27
+          },
+          "End": {
+            "Y": 2024,
+            "M": 3,
+            "D": 26
+          },
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "One-Star Shadow Raid Boss"
         },
         {
           "Start": {
@@ -55490,6 +56038,21 @@
         },
         {
           "Start": {
+            "Y": 2024,
+            "M": 8,
+            "D": 16
+          },
+          "End": {
+            "Y": 2024,
+            "M": 8,
+            "D": 20
+          },
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "One-Star Shadow Raid Boss (Honolulu 2024 Pok\u00E9mon World Championships)"
+        },
+        {
+          "Start": {
             "Y": 2025,
             "M": 3,
             "D": 13
@@ -55502,6 +56065,16 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 23
+          },
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "One-Star Shadow Raid Boss"
         }
       ]
     },
@@ -58795,14 +59368,9 @@
             "M": 3,
             "D": 4
           },
-          "End": {
-            "Y": 2025,
-            "M": 12,
-            "D": 2
-          },
           "Type": 1,
           "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon GO: Might and Mastery / Delightful Days / Tales of Transformation"
+          "Comment": "Pok\u00E9mon GO: Might and Mastery"
         },
         {
           "Start": {
@@ -61544,6 +62112,22 @@
             "D": 27
           },
           "End": {
+            "Y": 2024,
+            "M": 3,
+            "D": 26
+          },
+          "Shiny": 1,
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Shadow Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2024,
+            "M": 1,
+            "D": 27
+          },
+          "End": {
             "Y": 2025,
             "M": 8,
             "D": 7
@@ -63051,6 +63635,16 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss (Enchanted Hollow)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 23
+          },
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Shadow Raid Boss"
         }
       ]
     },
@@ -63775,6 +64369,22 @@
         },
         {
           "Start": {
+            "Y": 2024,
+            "M": 3,
+            "D": 27
+          },
+          "End": {
+            "Y": 2024,
+            "M": 8,
+            "D": 7
+          },
+          "Shiny": 1,
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Shadow Raid Boss"
+        },
+        {
+          "Start": {
             "Y": 2025,
             "M": 1,
             "D": 27
@@ -64467,6 +65077,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Five-Star Raid Boss (Ended Early)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 24
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 24
+          },
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "Five-Star Shadow Raid Boss (Raikou Shadow Raid Day)"
         }
       ]
     },
@@ -65603,6 +66228,11 @@
             "Y": 2025,
             "M": 9,
             "D": 16
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 22
           },
           "Type": 100,
           "LocalizedStart": true,
@@ -66825,6 +67455,21 @@
           "Type": 13,
           "LocalizedStart": true,
           "Comment": "Five-Star Shadow Raid Boss (Into the Wild 2025, Day 1)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 31
+          },
+          "End": {
+            "Y": 2026,
+            "M": 2,
+            "D": 1
+          },
+          "Type": 110,
+          "LocalizedStart": true,
+          "Comment": "Five-Star Power Spot Boss (Dynamax Ho-Oh Max Battle Weekend)"
         }
       ]
     },
@@ -70584,6 +71229,11 @@
             "M": 11,
             "D": 18
           },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 22
+          },
           "Type": 13,
           "LocalizedStart": true,
           "Comment": "One-Star Shadow Raid Boss"
@@ -70986,6 +71636,22 @@
           "Type": 100,
           "LocalizedStart": true,
           "Comment": "Team GO Rocket Grunt"
+        },
+        {
+          "Start": {
+            "Y": 2024,
+            "M": 8,
+            "D": 16
+          },
+          "End": {
+            "Y": 2024,
+            "M": 8,
+            "D": 20
+          },
+          "Shiny": 1,
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Shadow Raid Boss (Honolulu 2024 Pok\u00E9mon World Championships)"
         }
       ]
     },
@@ -72239,13 +72905,13 @@
             "D": 2
           },
           "End": {
-            "Y": 2025,
-            "M": 12,
-            "D": 2
+            "Y": 2026,
+            "M": 3,
+            "D": 3
           },
           "Type": 1,
           "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon GO: Tales of Transformation"
+          "Comment": "Pok\u00E9mon GO: Tales of Transformation / Precious Paths"
         }
       ]
     },
@@ -74031,6 +74697,36 @@
         {
           "Start": {
             "Y": 2024,
+            "M": 8,
+            "D": 16
+          },
+          "End": {
+            "Y": 2024,
+            "M": 8,
+            "D": 20
+          },
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Shadow Raid Boss (Honolulu 2024 Pok\u00E9mon World Championships)"
+        },
+        {
+          "Start": {
+            "Y": 2024,
+            "M": 10,
+            "D": 8
+          },
+          "End": {
+            "Y": 2025,
+            "M": 1,
+            "D": 14
+          },
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Shadow Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2024,
             "M": 10,
             "D": 14
           },
@@ -74148,6 +74844,11 @@
             "Y": 2025,
             "M": 11,
             "D": 18
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 22
           },
           "Type": 13,
           "LocalizedStart": true,
@@ -74893,6 +75594,11 @@
             "M": 3,
             "D": 25
           },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 22
+          },
           "Type": 100,
           "LocalizedStart": true,
           "Comment": "Team GO Rocket Grunt"
@@ -75194,6 +75900,16 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9mon GO Wild Area 2025: Global"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 23
+          },
+          "Type": 100,
+          "LocalizedStart": true,
+          "Comment": "Team GO Rocket Leader Arlo"
         }
       ]
     },
@@ -79745,10 +80461,42 @@
             "M": 8,
             "D": 8
           },
+          "End": {
+            "Y": 2024,
+            "M": 8,
+            "D": 16
+          },
+          "Shiny": 1,
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Shadow Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2024,
+            "M": 8,
+            "D": 8
+          },
           "Shiny": 1,
           "Type": 100,
           "LocalizedStart": true,
           "Comment": "Team GO Rocket Grunt"
+        },
+        {
+          "Start": {
+            "Y": 2024,
+            "M": 8,
+            "D": 21
+          },
+          "End": {
+            "Y": 2024,
+            "M": 9,
+            "D": 3
+          },
+          "Shiny": 1,
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Shadow Raid Boss"
         },
         {
           "Start": {
@@ -80025,6 +80773,16 @@
           "Type": 100,
           "LocalizedStart": true,
           "Comment": "Team GO Rocket Grunt"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 23
+          },
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "One-Star Shadow Raid Boss"
         }
       ]
     },
@@ -82394,6 +83152,11 @@
             "M": 9,
             "D": 16
           },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 22
+          },
           "Type": 100,
           "LocalizedStart": true,
           "Comment": "Team GO Rocket Leader Sierra"
@@ -83708,6 +84471,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 16
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 25
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Raid Boss"
         }
       ]
     },
@@ -86374,6 +87152,11 @@
             "Y": 2025,
             "M": 11,
             "D": 18
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 22
           },
           "Type": 13,
           "LocalizedStart": true,
@@ -99512,6 +100295,22 @@
             "D": 26
           },
           "Shiny": 1,
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "One-Star Shadow Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2024,
+            "M": 1,
+            "D": 27
+          },
+          "End": {
+            "Y": 2024,
+            "M": 3,
+            "D": 26
+          },
+          "Shiny": 1,
           "Type": 100,
           "LocalizedStart": true,
           "Comment": "Team GO Rocket Grunt"
@@ -100120,6 +100919,11 @@
             "Y": 2025,
             "M": 11,
             "D": 18
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 22
           },
           "Shiny": 1,
           "Type": 13,
@@ -101772,7 +102576,7 @@
             "M": 2,
             "D": 5
           },
-          "Type": 29,
+          "Type": 68,
           "LocalizedStart": true,
           "Comment": "GO Pass: January 2026"
         }
@@ -102171,7 +102975,7 @@
             "M": 1,
             "D": 8
           },
-          "Type": 29,
+          "Type": 68,
           "LocalizedStart": true,
           "Comment": "GO Pass: December 2025"
         }
@@ -108073,6 +108877,22 @@
             "M": 5,
             "D": 14
           },
+          "End": {
+            "Y": 2025,
+            "M": 8,
+            "D": 10
+          },
+          "Shiny": 1,
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Shadow Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2025,
+            "M": 5,
+            "D": 14
+          },
           "Shiny": 1,
           "Type": 100,
           "LocalizedStart": true,
@@ -110398,6 +111218,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss (Winter Holiday 2025 Part 2)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 19
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 25
+          },
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "Pyeongchang Winter Festival 2026"
         }
       ]
     },
@@ -111330,13 +112165,13 @@
             "D": 3
           },
           "End": {
-            "Y": 2025,
-            "M": 12,
-            "D": 2
+            "Y": 2026,
+            "M": 3,
+            "D": 3
           },
           "Type": 1,
           "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation"
+          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation / Precious Paths"
         },
         {
           "Start": {
@@ -111352,21 +112187,6 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
-        },
-        {
-          "Start": {
-            "Y": 2025,
-            "M": 12,
-            "D": 13
-          },
-          "End": {
-            "Y": 2025,
-            "M": 12,
-            "D": 14
-          },
-          "Type": 1,
-          "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon GO City Safari: Buenos Aires, Miami, Sydney 2025"
         },
         {
           "Start": {
@@ -111680,12 +112500,12 @@
             "D": 15
           },
           "End": {
-            "Y": 2025,
-            "M": 12,
-            "D": 2
+            "Y": 2026,
+            "M": 3,
+            "D": 3
           },
           "Type": 1,
-          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation"
+          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation / Precious Paths"
         },
         {
           "Start": {
@@ -111904,12 +112724,12 @@
             "D": 15
           },
           "End": {
-            "Y": 2025,
-            "M": 12,
-            "D": 2
+            "Y": 2026,
+            "M": 3,
+            "D": 3
           },
           "Type": 1,
-          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation"
+          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation / Precious Paths"
         },
         {
           "Start": {
@@ -111940,21 +112760,6 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
-        },
-        {
-          "Start": {
-            "Y": 2025,
-            "M": 12,
-            "D": 4
-          },
-          "End": {
-            "Y": 2026,
-            "M": 3,
-            "D": 3
-          },
-          "Type": 92,
-          "LocalizedStart": true,
-          "Comment": "Reward Encounter (GO Battle Week: Precious Paths)"
         }
       ]
     },
@@ -113319,6 +114124,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 16
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 25
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
         }
       ]
     },
@@ -114221,6 +115041,21 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9mon GO: Precious Paths (Northern Hemisphere)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 19
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 25
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss (Pyeongchang Winter Festival 2026)"
         }
       ]
     },
@@ -114535,6 +115370,22 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2024,
+            "M": 3,
+            "D": 27
+          },
+          "End": {
+            "Y": 2024,
+            "M": 8,
+            "D": 7
+          },
+          "Shiny": 1,
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "One-Star Shadow Raid Boss"
         },
         {
           "Start": {
@@ -115540,6 +116391,17 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 23
+          },
+          "Shiny": 1,
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "One-Star Shadow Raid Boss"
         }
       ]
     },
@@ -117308,6 +118170,22 @@
           },
           "Type": 254,
           "Comment": "Version 0.269.0 Premier Ball Issue"
+        },
+        {
+          "Start": {
+            "Y": 2023,
+            "M": 10,
+            "D": 26
+          },
+          "End": {
+            "Y": 2023,
+            "M": 10,
+            "D": 31
+          },
+          "Shiny": 1,
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "One-Star Shadow Raid Boss (Halloween 2023 Part II \u2013 Team GO Rocket Takeover)"
         },
         {
           "Start": {
@@ -119744,6 +120622,22 @@
             "D": 27
           },
           "End": {
+            "Y": 2024,
+            "M": 3,
+            "D": 26
+          },
+          "Shiny": 1,
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Shadow Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2024,
+            "M": 1,
+            "D": 27
+          },
+          "End": {
             "Y": 2025,
             "M": 11,
             "D": 2
@@ -122059,6 +122953,11 @@
             "M": 9,
             "D": 16
           },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 22
+          },
           "Shiny": 1,
           "Type": 100,
           "LocalizedStart": true,
@@ -122415,6 +123314,17 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Five-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 23
+          },
+          "Shiny": 1,
+          "Type": 100,
+          "LocalizedStart": true,
+          "Comment": "Team GO Rocket Boss Giovanni"
         }
       ]
     },
@@ -123640,6 +124550,17 @@
           "Shiny": 1,
           "Type": 255,
           "Comment": "Version 0.269.0 Premier Ball Issue"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 21
+          },
+          "Shiny": 2,
+          "Type": 41,
+          "LocalizedStart": true,
+          "Comment": "Masterwork Research: Pony Tales"
         }
       ]
     },
@@ -126217,12 +127138,12 @@
             "D": 15
           },
           "End": {
-            "Y": 2025,
-            "M": 12,
-            "D": 2
+            "Y": 2026,
+            "M": 3,
+            "D": 3
           },
           "Type": 1,
-          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation"
+          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation / Precious Paths"
         },
         {
           "Start": {
@@ -126238,36 +127159,6 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
-        },
-        {
-          "Start": {
-            "Y": 2026,
-            "M": 2,
-            "D": 20
-          },
-          "End": {
-            "Y": 2026,
-            "M": 2,
-            "D": 22
-          },
-          "Type": 1,
-          "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon GO Tour: Kalos \u2013 Tainan / Los Angeles (Central Village)"
-        },
-        {
-          "Start": {
-            "Y": 2026,
-            "M": 2,
-            "D": 28
-          },
-          "End": {
-            "Y": 2026,
-            "M": 3,
-            "D": 1
-          },
-          "Type": 1,
-          "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon GO Tour: Kalos \u2013 Global (Central Village)"
         }
       ]
     },
@@ -127900,7 +128791,38 @@
     {
       "Species": 687,
       "Available": true,
-      "Data": []
+      "Data": [
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 2,
+            "D": 20
+          },
+          "End": {
+            "Y": 2026,
+            "M": 2,
+            "D": 22
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Mega Raid Boss (Pok\u00E9mon GO Tour: Kalos \u2013 Tainan / Los Angeles)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 3,
+            "D": 1
+          },
+          "End": {
+            "Y": 2026,
+            "M": 3,
+            "D": 1
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Mega Raid Boss (Pok\u00E9mon GO Tour: Kalos \u2013 Global, Day 2)"
+        }
+      ]
     },
     {
       "Species": 688,
@@ -129830,42 +130752,12 @@
             "D": 15
           },
           "End": {
-            "Y": 2025,
-            "M": 9,
-            "D": 2
-          },
-          "Type": 1,
-          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation"
-        },
-        {
-          "Start": {
-            "Y": 2026,
-            "M": 2,
-            "D": 20
-          },
-          "End": {
-            "Y": 2026,
-            "M": 2,
-            "D": 22
-          },
-          "Type": 1,
-          "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon GO Tour: Kalos \u2013 Tainan / Los Angeles (Mountain Manor)"
-        },
-        {
-          "Start": {
-            "Y": 2026,
-            "M": 2,
-            "D": 28
-          },
-          "End": {
             "Y": 2026,
             "M": 3,
-            "D": 1
+            "D": 3
           },
           "Type": 1,
-          "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon GO Tour: Kalos \u2013 Global (Mountain Manor)"
+          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation / Precious Paths"
         }
       ]
     },
@@ -129964,42 +130856,12 @@
             "D": 15
           },
           "End": {
-            "Y": 2025,
-            "M": 9,
-            "D": 2
-          },
-          "Type": 1,
-          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation"
-        },
-        {
-          "Start": {
-            "Y": 2026,
-            "M": 2,
-            "D": 20
-          },
-          "End": {
-            "Y": 2026,
-            "M": 2,
-            "D": 22
-          },
-          "Type": 1,
-          "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon GO Tour: Kalos \u2013 Tainan / Los Angeles (Mountain Manor)"
-        },
-        {
-          "Start": {
-            "Y": 2026,
-            "M": 2,
-            "D": 28
-          },
-          "End": {
             "Y": 2026,
             "M": 3,
-            "D": 1
+            "D": 3
           },
           "Type": 1,
-          "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon GO Tour: Kalos \u2013 Global (Mountain Manor)"
+          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation / Precious Paths"
         }
       ]
     },
@@ -130087,42 +130949,12 @@
             "D": 15
           },
           "End": {
-            "Y": 2025,
-            "M": 9,
-            "D": 2
-          },
-          "Type": 1,
-          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation"
-        },
-        {
-          "Start": {
-            "Y": 2026,
-            "M": 2,
-            "D": 20
-          },
-          "End": {
-            "Y": 2026,
-            "M": 2,
-            "D": 22
-          },
-          "Type": 1,
-          "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon GO Tour: Kalos \u2013 Tainan / Los Angeles (Mountain Manor)"
-        },
-        {
-          "Start": {
-            "Y": 2026,
-            "M": 2,
-            "D": 28
-          },
-          "End": {
             "Y": 2026,
             "M": 3,
-            "D": 1
+            "D": 3
           },
           "Type": 1,
-          "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon GO Tour: Kalos \u2013 Global (Mountain Manor)"
+          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation / Precious Paths"
         }
       ]
     },
@@ -130210,42 +131042,12 @@
             "D": 15
           },
           "End": {
-            "Y": 2025,
-            "M": 9,
-            "D": 2
-          },
-          "Type": 1,
-          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation"
-        },
-        {
-          "Start": {
-            "Y": 2026,
-            "M": 2,
-            "D": 20
-          },
-          "End": {
-            "Y": 2026,
-            "M": 2,
-            "D": 22
-          },
-          "Type": 1,
-          "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon GO Tour: Kalos \u2013 Tainan / Los Angeles (Mountain Manor)"
-        },
-        {
-          "Start": {
-            "Y": 2026,
-            "M": 2,
-            "D": 28
-          },
-          "End": {
             "Y": 2026,
             "M": 3,
-            "D": 1
+            "D": 3
           },
           "Type": 1,
-          "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon GO Tour: Kalos \u2013 Global (Mountain Manor)"
+          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation / Precious Paths"
         }
       ]
     },
@@ -134441,13 +135243,13 @@
             "D": 3
           },
           "End": {
-            "Y": 2025,
-            "M": 12,
-            "D": 2
+            "Y": 2026,
+            "M": 3,
+            "D": 3
           },
           "Type": 1,
           "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation"
+          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation / Precious Paths"
         },
         {
           "Start": {
@@ -137880,16 +138682,6 @@
             "M": 4,
             "D": 9
           },
-          "Type": 24,
-          "LocalizedStart": true,
-          "Comment": "Inbound from Ultra Space Timed Research"
-        },
-        {
-          "Start": {
-            "Y": 2025,
-            "M": 4,
-            "D": 9
-          },
           "Type": 74,
           "LocalizedStart": true,
           "Comment": "Ultra Beast Encounter: Stakataka"
@@ -138067,16 +138859,6 @@
             "M": 4,
             "D": 9
           },
-          "Type": 24,
-          "LocalizedStart": true,
-          "Comment": "Inbound from Ultra Space Timed Research"
-        },
-        {
-          "Start": {
-            "Y": 2025,
-            "M": 4,
-            "D": 9
-          },
           "Type": 74,
           "LocalizedStart": true,
           "Comment": "Ultra Beast Encounter: Blacephalon"
@@ -138095,6 +138877,31 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Five-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2025,
+            "M": 12,
+            "D": 31
+          },
+          "End": {
+            "Y": 2026,
+            "M": 3,
+            "D": 3
+          },
+          "Type": 90,
+          "LocalizedStart": true,
+          "Comment": "Reward Encounter (GO Battle Week: Precious Paths)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 10
+          },
+          "Type": 68,
+          "LocalizedStart": true,
+          "Comment": "Raid Hour: Blacephalon"
         }
       ]
     },
@@ -139212,7 +140019,24 @@
     {
       "Species": 820,
       "Available": true,
-      "Data": []
+      "Data": [
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 16
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 25
+          },
+          "Shiny": 1,
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Raid Boss"
+        }
+      ]
     },
     {
       "Species": 821,
@@ -140112,13 +140936,13 @@
             "D": 15
           },
           "End": {
-            "Y": 2025,
-            "M": 12,
-            "D": 2
+            "Y": 2026,
+            "M": 3,
+            "D": 3
           },
           "Shiny": 1,
           "Type": 1,
-          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation"
+          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation / Precious Paths"
         },
         {
           "Start": {
@@ -140298,6 +141122,21 @@
           "Type": 24,
           "LocalizedStart": true,
           "Comment": "Just My Cup of Tea Timed Research: Prized Possession"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 16
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 25
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
         }
       ]
     },
@@ -140436,6 +141275,21 @@
           "Type": 24,
           "LocalizedStart": true,
           "Comment": "Just My Cup of Tea Timed Research: Prized Possession"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 16
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 25
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
         }
       ]
     },
@@ -142898,6 +143752,21 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Harvest Festival 2024"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 16
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 25
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
         }
       ]
     },
@@ -143060,6 +143929,27 @@
       "Data": []
     },
     {
+      "Species": 940,
+      "Available": true,
+      "Data": [
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 14
+          },
+          "Shiny": 1,
+          "Type": 1,
+          "Comment": "High Zaptitude (Global Challenge Reward)"
+        }
+      ]
+    },
+    {
+      "Species": 941,
+      "Available": true,
+      "Data": []
+    },
+    {
       "Species": 944,
       "Available": true,
       "Data": [
@@ -143175,11 +144065,11 @@
           "Start": {
             "Y": 2025,
             "M": 11,
-            "D": 7
+            "D": 15
           },
-          "Type": 24,
+          "Type": 20,
           "LocalizedStart": true,
-          "Comment": "Don\u0027t Tinkatink Twice! Premium Timed Research"
+          "Comment": "Pok\u00E9mon GO Wild Area 2025: Global"
         }
       ]
     },
@@ -143507,6 +144397,44 @@
       "Data": []
     },
     {
+      "Species": 969,
+      "Available": true,
+      "Data": [
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 27
+          },
+          "End": {
+            "Y": 2026,
+            "M": 2,
+            "D": 1
+          },
+          "Shiny": 1,
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "Route Encounter (Into the Depths)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 27
+          },
+          "Shiny": 1,
+          "Type": 20,
+          "LocalizedStart": true,
+          "Comment": "Into the Depths"
+        }
+      ]
+    },
+    {
+      "Species": 970,
+      "Available": true,
+      "Data": []
+    },
+    {
       "Species": 971,
       "Available": true,
       "Data": [
@@ -143554,6 +144482,23 @@
       "Species": 972,
       "Available": true,
       "Data": []
+    },
+    {
+      "Species": 973,
+      "Available": true,
+      "Data": [
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 2,
+            "D": 3
+          },
+          "Shiny": 1,
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "Carnival of Flamigo"
+        }
+      ]
     },
     {
       "Species": 974,
@@ -143616,7 +144561,24 @@
     {
       "Species": 975,
       "Available": true,
-      "Data": []
+      "Data": [
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 16
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 25
+          },
+          "Shiny": 1,
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Raid Boss"
+        }
+      ]
     },
     {
       "Species": 977,
