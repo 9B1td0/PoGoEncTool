@@ -4028,6 +4028,21 @@
           "Start": {
             "Y": 2026,
             "M": 2,
+            "D": 4
+          },
+          "End": {
+            "Y": 2026,
+            "M": 2,
+            "D": 16
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Mega Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 2,
             "D": 28
           },
           "End": {
@@ -4831,7 +4846,7 @@
           "End": {
             "Y": 2026,
             "M": 1,
-            "D": 25
+            "D": 28
           },
           "Type": 10,
           "LocalizedStart": true,
@@ -5999,7 +6014,7 @@
           "Start": {
             "Y": 2026,
             "M": 2,
-            "D": 28
+            "D": 23
           },
           "End": {
             "Y": 2026,
@@ -6008,7 +6023,7 @@
           },
           "Type": 10,
           "LocalizedStart": true,
-          "Comment": "One-Star Raid Boss (Pok\u00E9mon GO Tour: Kalos \u2013 Global, No Costume)"
+          "Comment": "One-Star Raid Boss (Road to Kalos / Pok\u00E9mon GO Tour: Kalos \u2013 Global, No Costume)"
         }
       ]
     },
@@ -13387,6 +13402,16 @@
           "Type": 100,
           "LocalizedStart": true,
           "Comment": "Team GO Rocket Grunt"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 2,
+            "D": 9
+          },
+          "Type": 110,
+          "LocalizedStart": true,
+          "Comment": "One-Star Power Spot Boss"
         }
       ]
     },
@@ -16860,6 +16885,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 28
+          },
+          "End": {
+            "Y": 2026,
+            "M": 2,
+            "D": 4
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
         }
       ]
     },
@@ -17863,6 +17903,22 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 23
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 23
+          },
+          "Shiny": 1,
+          "Type": 100,
+          "LocalizedStart": true,
+          "Comment": "Team GO Rocket Grunt (Accidental Release)"
         }
       ]
     },
@@ -28041,6 +28097,22 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Three-Star Raid Boss (Taken Treasures)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 28
+          },
+          "End": {
+            "Y": 2026,
+            "M": 2,
+            "D": 4
+          },
+          "Shiny": 1,
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Raid Boss"
         }
       ]
     },
@@ -37025,6 +37097,22 @@
           "Type": 110,
           "LocalizedStart": true,
           "Comment": "One-Star Power Spot Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 23
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 23
+          },
+          "Shiny": 1,
+          "Type": 100,
+          "LocalizedStart": true,
+          "Comment": "Team GO Rocket Grunt (Accidental Release)"
         }
       ]
     },
@@ -39182,6 +39270,36 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Five-Star Raid Boss (Pok\u00E9Park KANTO Pre-Opening)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 2,
+            "D": 23
+          },
+          "End": {
+            "Y": 2026,
+            "M": 2,
+            "D": 23
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Five-Star Raid Boss (Road to Kalos, Day 1)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 10,
+            "D": 1
+          },
+          "End": {
+            "Y": 2027,
+            "M": 1,
+            "D": 31
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Five-Star Raid Boss (Pok\u00E9Park KANTO)"
         }
       ]
     },
@@ -39754,6 +39872,21 @@
           "Type": 110,
           "LocalizedStart": true,
           "Comment": "Five-Star Power Spot Boss (Dark Skies, Days 2 and 3)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 2,
+            "D": 5
+          },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 31
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Five-Star Raid Boss (Pok\u00E9Park KANTO)"
         }
       ]
     },
@@ -40265,6 +40398,36 @@
           "Type": 110,
           "LocalizedStart": true,
           "Comment": "Five-Star Power Spot Boss (Dark Skies, Days 2 and 3)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 2,
+            "D": 23
+          },
+          "End": {
+            "Y": 2026,
+            "M": 2,
+            "D": 23
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Five-Star Raid Boss (Road to Kalos, Day 1)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 6,
+            "D": 1
+          },
+          "End": {
+            "Y": 2026,
+            "M": 9,
+            "D": 30
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Five-Star Raid Boss (Pok\u00E9Park KANTO)"
         }
       ]
     },
@@ -50962,16 +51125,11 @@
           "Start": {
             "Y": 2026,
             "M": 2,
-            "D": 28
-          },
-          "End": {
-            "Y": 2026,
-            "M": 3,
-            "D": 1
+            "D": 5
           },
           "Type": 1,
           "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon GO Tour: Kalos \u2013 Global"
+          "Comment": "Pok\u00E9Park KANTO"
         }
       ]
     },
@@ -52265,6 +52423,16 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9mon GO City Safari: S\u00E3o Paulo 2024"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 2,
+            "D": 5
+          },
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "Pok\u00E9Park KANTO"
         }
       ]
     },
@@ -62387,6 +62555,21 @@
           "Type": 100,
           "LocalizedStart": true,
           "Comment": "Team GO Rocket Grunt"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 28
+          },
+          "End": {
+            "Y": 2026,
+            "M": 2,
+            "D": 4
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
         }
       ]
     },
@@ -67179,6 +67362,21 @@
           "Type": 110,
           "LocalizedStart": true,
           "Comment": "Five-Star Power Spot Boss (Dynamax Lugia Max Battle Weekend)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 2,
+            "D": 24
+          },
+          "End": {
+            "Y": 2026,
+            "M": 2,
+            "D": 24
+          },
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "Five-Star Shadow Raid Boss (Road to Kalos, Day 2)"
         }
       ]
     },
@@ -67470,6 +67668,21 @@
           "Type": 110,
           "LocalizedStart": true,
           "Comment": "Five-Star Power Spot Boss (Dynamax Ho-Oh Max Battle Weekend)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 2,
+            "D": 24
+          },
+          "End": {
+            "Y": 2026,
+            "M": 2,
+            "D": 24
+          },
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "Five-Star Shadow Raid Boss (Road to Kalos, Day 2)"
         }
       ]
     },
@@ -71891,6 +72104,21 @@
           "Start": {
             "Y": 2026,
             "M": 2,
+            "D": 10
+          },
+          "End": {
+            "Y": 2026,
+            "M": 2,
+            "D": 15
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Raid Boss (Valentine\u0027s Day 2026)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 2,
             "D": 20
           },
           "End": {
@@ -73347,6 +73575,21 @@
           "Type": 100,
           "LocalizedStart": true,
           "Comment": "Team GO Rocket Grunt"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 28
+          },
+          "End": {
+            "Y": 2026,
+            "M": 2,
+            "D": 4
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
         }
       ]
     },
@@ -74853,6 +75096,21 @@
           "Type": 13,
           "LocalizedStart": true,
           "Comment": "Three-Star Shadow Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 2,
+            "D": 16
+          },
+          "End": {
+            "Y": 2026,
+            "M": 2,
+            "D": 21
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Mega Raid Boss"
         }
       ]
     },
@@ -85277,6 +85535,21 @@
         {
           "Start": {
             "Y": 2026,
+            "M": 2,
+            "D": 21
+          },
+          "End": {
+            "Y": 2026,
+            "M": 3,
+            "D": 4
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Mega Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
             "M": 3,
             "D": 1
           },
@@ -91159,6 +91432,21 @@
           "Type": 13,
           "LocalizedStart": true,
           "Comment": "Five-Star Shadow Raid Boss (Shadow Raid Weekend: Kyogre)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 2,
+            "D": 25
+          },
+          "End": {
+            "Y": 2026,
+            "M": 2,
+            "D": 25
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Primal Raid Boss (Road to Kalos, Day 3)"
         }
       ]
     },
@@ -91452,6 +91740,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Five-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 2,
+            "D": 25
+          },
+          "End": {
+            "Y": 2026,
+            "M": 2,
+            "D": 25
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Primal Raid Boss (Road to Kalos, Day 3)"
         }
       ]
     },
@@ -97457,6 +97760,22 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Mighty Pok\u00E9mon (Pok\u00E9mon GO Wild Area 2025: Global)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 25
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 28
+          },
+          "Shiny": 1,
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Raid Boss"
         }
       ]
     },
@@ -101574,6 +101893,21 @@
           "Start": {
             "Y": 2026,
             "M": 2,
+            "D": 10
+          },
+          "End": {
+            "Y": 2026,
+            "M": 2,
+            "D": 15
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Raid Boss (Valentine\u0027s Day 2026)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 2,
             "D": 28
           },
           "End": {
@@ -102579,6 +102913,51 @@
           "Type": 68,
           "LocalizedStart": true,
           "Comment": "GO Pass: January 2026"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 2,
+            "D": 4
+          },
+          "End": {
+            "Y": 2026,
+            "M": 2,
+            "D": 16
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Five-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 2,
+            "D": 4
+          },
+          "End": {
+            "Y": 2026,
+            "M": 3,
+            "D": 3
+          },
+          "Type": 90,
+          "LocalizedStart": true,
+          "Comment": "Reward Encounter (Pok\u00E9mon GO: Precious Paths)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 2,
+            "D": 26
+          },
+          "End": {
+            "Y": 2026,
+            "M": 2,
+            "D": 26
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Five-Star Raid Boss (Road to Kalos, Day 4)"
         }
       ]
     },
@@ -102730,6 +103109,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Five-Star Raid Boss (Raid Hour)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 2,
+            "D": 26
+          },
+          "End": {
+            "Y": 2026,
+            "M": 2,
+            "D": 26
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Five-Star Raid Boss (Road to Kalos, Day 4)"
         }
       ]
     },
@@ -102978,6 +103372,51 @@
           "Type": 68,
           "LocalizedStart": true,
           "Comment": "GO Pass: December 2025"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 2,
+            "D": 4
+          },
+          "End": {
+            "Y": 2026,
+            "M": 2,
+            "D": 16
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Five-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 2,
+            "D": 4
+          },
+          "End": {
+            "Y": 2026,
+            "M": 3,
+            "D": 3
+          },
+          "Type": 90,
+          "LocalizedStart": true,
+          "Comment": "Reward Encounter (Pok\u00E9mon GO: Precious Paths)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 2,
+            "D": 26
+          },
+          "End": {
+            "Y": 2026,
+            "M": 2,
+            "D": 26
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Five-Star Raid Boss (Road to Kalos, Day 4)"
         }
       ]
     },
@@ -103129,6 +103568,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Five-Star Raid Boss (Raid Hour)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 2,
+            "D": 26
+          },
+          "End": {
+            "Y": 2026,
+            "M": 2,
+            "D": 26
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Five-Star Raid Boss (Road to Kalos, Day 4)"
         }
       ]
     },
@@ -103668,6 +104122,21 @@
             "Y": 2025,
             "M": 10,
             "D": 1
+          },
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "Five-Star Shadow Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 2,
+            "D": 1
+          },
+          "End": {
+            "Y": 2026,
+            "M": 3,
+            "D": 3
           },
           "Type": 13,
           "LocalizedStart": true,
@@ -104357,8 +104826,8 @@
           },
           "End": {
             "Y": 2026,
-            "M": 2,
-            "D": 1
+            "M": 1,
+            "D": 31
           },
           "Type": 13,
           "LocalizedStart": true,
@@ -114134,7 +114603,7 @@
           "End": {
             "Y": 2026,
             "M": 1,
-            "D": 25
+            "D": 28
           },
           "Type": 10,
           "LocalizedStart": true,
@@ -119079,7 +119548,24 @@
     {
       "Species": 614,
       "Available": true,
-      "Data": []
+      "Data": [
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 25
+          },
+          "End": {
+            "Y": 2026,
+            "M": 2,
+            "D": 4
+          },
+          "Shiny": 1,
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Raid Boss"
+        }
+      ]
     },
     {
       "Species": 615,
@@ -123676,6 +124162,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Five-Star Raid Boss (Kyurem Fusion Raid Day)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 2,
+            "D": 27
+          },
+          "End": {
+            "Y": 2026,
+            "M": 2,
+            "D": 27
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Five-Star Raid Boss (Road to Kalos, Day 5)"
         }
       ]
     },
@@ -123888,6 +124389,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Five-Star Raid Boss (Kyurem Fusion Raid Day)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 2,
+            "D": 27
+          },
+          "End": {
+            "Y": 2026,
+            "M": 2,
+            "D": 27
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Five-Star Raid Boss (Road to Kalos, Day 5)"
         }
       ]
     },
@@ -124518,6 +125034,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Five-Star Raid Boss (Kyurem Fusion Raid Day)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 2,
+            "D": 27
+          },
+          "End": {
+            "Y": 2026,
+            "M": 2,
+            "D": 27
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Five-Star Raid Boss (Road to Kalos, Day 5)"
         }
       ]
     },
@@ -128338,6 +128869,22 @@
           "Type": 92,
           "LocalizedStart": true,
           "Comment": "Reward Encounter (GO Battle Week: Precious Paths)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 25
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 28
+          },
+          "Shiny": 1,
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
         },
         {
           "Start": {
@@ -137216,6 +137763,22 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Five-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 2,
+            "D": 16
+          },
+          "End": {
+            "Y": 2026,
+            "M": 2,
+            "D": 21
+          },
+          "Shiny": 1,
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Five-Star Raid Boss"
         }
       ]
     },
@@ -137233,6 +137796,22 @@
             "Y": 2025,
             "M": 7,
             "D": 28
+          },
+          "Shiny": 1,
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Five-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 2,
+            "D": 21
+          },
+          "End": {
+            "Y": 2026,
+            "M": 3,
+            "D": 4
           },
           "Shiny": 1,
           "Type": 10,
@@ -138891,7 +139470,7 @@
           },
           "Type": 90,
           "LocalizedStart": true,
-          "Comment": "Reward Encounter (GO Battle Week: Precious Paths)"
+          "Comment": "Reward Encounter (Pok\u00E9mon GO: Precious Paths)"
         },
         {
           "Start": {
@@ -141132,7 +141711,7 @@
           "End": {
             "Y": 2026,
             "M": 1,
-            "D": 25
+            "D": 28
           },
           "Type": 10,
           "LocalizedStart": true,
@@ -141285,7 +141864,7 @@
           "End": {
             "Y": 2026,
             "M": 1,
-            "D": 25
+            "D": 28
           },
           "Type": 10,
           "LocalizedStart": true,
@@ -144360,6 +144939,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Three-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 25
+          },
+          "End": {
+            "Y": 2026,
+            "M": 1,
+            "D": 28
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Raid Boss"
         }
       ]
     },
@@ -144638,6 +145232,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Three-Star Raid Boss (Pinch Perfect)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 28
+          },
+          "End": {
+            "Y": 2026,
+            "M": 2,
+            "D": 4
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Raid Boss"
         }
       ]
     },
@@ -145006,6 +145615,22 @@
           "Type": 29,
           "LocalizedStart": true,
           "Comment": "GO Pass Deluxe: January 2026"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 28
+          },
+          "End": {
+            "Y": 2026,
+            "M": 2,
+            "D": 4
+          },
+          "Shiny": 1,
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
         }
       ]
     },
@@ -145061,6 +145686,22 @@
           "Type": 29,
           "LocalizedStart": true,
           "Comment": "GO Pass Deluxe: January 2026"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 1,
+            "D": 28
+          },
+          "End": {
+            "Y": 2026,
+            "M": 2,
+            "D": 4
+          },
+          "Shiny": 1,
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
         }
       ]
     },

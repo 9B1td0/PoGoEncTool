@@ -227,6 +227,7 @@ public static class BulkActions
         Charmander => 1,
         Squirtle => 1,
         Caterpie => 1,
+        Growlithe => 1, // verify
         Abra => 1,
         Machop => 2,
         Gastly => 1,
@@ -244,7 +245,7 @@ public static class BulkActions
         Spheal => 1,
         Beldum => 3,
         Pidove => 1,
-        Roggenrola => 1, // verify
+        Roggenrola => 1,
         Woobat => 1,
         Drilbur => 1,
         Darumaka => 2,
