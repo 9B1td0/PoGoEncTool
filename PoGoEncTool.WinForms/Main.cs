@@ -30,6 +30,7 @@ public partial class Main : Form
 
         InitializeComponent();
         SpriteUtil.ChangeMode(SpriteBuilderMode.SpritesArtwork5668);
+        SpriteName.AllowShinySprite = true;
 
         if (Application.IsDarkModeEnabled)
             ReformatDark(Controls);
@@ -187,7 +188,7 @@ public partial class Main : Form
     private void LoadEntry(PogoEntry entry, ushort species, byte form)
     {
         var comment = entry.Comment;
-        if (comment.StartsWith("Mega Raid Boss") || comment.StartsWith("Primal Raid Boss") || comment.Contains("Elite Raid: Mega"))
+        if (comment.StartsWith("Mega Raid Boss") || comment.StartsWith("Super Mega Raid Boss") || comment.StartsWith("Primal Raid Boss") || comment.Contains("Elite Raid: Mega"))
             form = GetMegaFormIndex(comment, species, form);
 
         if (!pogoRow1.Visible)
@@ -205,7 +206,7 @@ public partial class Main : Form
         // Mega X, Mega Y
         if (species is (int)Species.Charizard or (int)Species.Raichu or (int)Species.Mewtwo)
         {
-            var shift = species is (int)Species.Raichu ? 1 : 0;
+            var shift = species == (int)Species.Raichu ? 1 : 0;
             return comment.Contains($"Mega {(Species)species} Y") ? (byte)(shift + 2) : (byte)(shift + 1);
         }
 
@@ -419,9 +420,9 @@ public partial class Main : Form
 
                     var method = (int)enc.Type switch
                     {
-                        1 => "Wild",
-                        2 => "Egg",
-                        3 => "12 km Egg",
+                        1 or 2 or 3 => "Wild",
+                        4 => "Egg",
+                        5 => "12 km Egg",
                         10 or 11 or 12 or 15 or 16 or 17 => "Raid",
                         13 or 14 or 18 or 19 => "Shadow Raid",
                         (>= 20 and <= 89) or 254 or 255 => "Research",
