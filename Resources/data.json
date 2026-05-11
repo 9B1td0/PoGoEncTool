@@ -7274,6 +7274,21 @@
         {
           "Start": {
             "Y": 2026,
+            "M": 5,
+            "D": 5
+          },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 5
+          },
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "Pok\u00E9mon RUN 2026 in Seoul"
+        },
+        {
+          "Start": {
+            "Y": 2026,
             "M": 6,
             "D": 4
           },
@@ -8480,6 +8495,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Three-Star Raid Boss (Valentine\u0027s Day 2026, No Costume)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 6
+          },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 12
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Raid Boss"
         }
       ]
     },
@@ -9047,6 +9077,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Three-Star Raid Boss (Valentine\u0027s Day 2026, No Costume)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 4,
+            "D": 22
+          },
+          "End": {
+            "Y": 2026,
+            "M": 4,
+            "D": 28
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Raid Boss"
         }
       ]
     },
@@ -10295,6 +10340,16 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Three-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 6
+          },
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Shadow Raid Boss"
         }
       ]
     },
@@ -11342,6 +11397,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Three-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 4,
+            "D": 15
+          },
+          "End": {
+            "Y": 2026,
+            "M": 4,
+            "D": 21
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Raid Boss"
         }
       ]
     },
@@ -12288,6 +12358,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Three-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 4,
+            "D": 15
+          },
+          "End": {
+            "Y": 2026,
+            "M": 4,
+            "D": 21
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Raid Boss"
         }
       ]
     },
@@ -12959,14 +13044,9 @@
             "M": 6,
             "D": 3
           },
-          "End": {
-            "Y": 2026,
-            "M": 3,
-            "D": 3
-          },
           "Type": 1,
           "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation / Precious Paths"
+          "Comment": "Pok\u00E9mon GO: Delightful Days"
         },
         {
           "Start": {
@@ -12982,36 +13062,6 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
-        },
-        {
-          "Start": {
-            "Y": 2026,
-            "M": 3,
-            "D": 7
-          },
-          "End": {
-            "Y": 2026,
-            "M": 3,
-            "D": 9
-          },
-          "Type": 1,
-          "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon 30th Anniversary: All Out"
-        },
-        {
-          "Start": {
-            "Y": 2026,
-            "M": 6,
-            "D": 11
-          },
-          "End": {
-            "Y": 2026,
-            "M": 6,
-            "D": 14
-          },
-          "Type": 1,
-          "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon GO Fest 2026: Copenhagen"
         }
       ]
     },
@@ -13234,13 +13284,8 @@
             "M": 7,
             "D": 15
           },
-          "End": {
-            "Y": 2026,
-            "M": 3,
-            "D": 3
-          },
           "Type": 1,
-          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation / Precious Paths"
+          "Comment": "Pok\u00E9mon GO: Delightful Days"
         },
         {
           "Start": {
@@ -13275,17 +13320,17 @@
         {
           "Start": {
             "Y": 2026,
-            "M": 3,
-            "D": 7
+            "M": 5,
+            "D": 5
           },
           "End": {
             "Y": 2026,
-            "M": 3,
-            "D": 9
+            "M": 5,
+            "D": 5
           },
-          "Type": 1,
+          "Type": 10,
           "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon 30th Anniversary: All Out"
+          "Comment": "One-Star Raid Boss"
         }
       ]
     },
@@ -14067,6 +14112,16 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Three-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 6
+          },
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Shadow Raid Boss"
         }
       ]
     },
@@ -19220,14 +19275,9 @@
             "M": 6,
             "D": 3
           },
-          "End": {
-            "Y": 2026,
-            "M": 3,
-            "D": 3
-          },
           "Type": 1,
           "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation / Precious Paths"
+          "Comment": "Pok\u00E9mon GO: Delightful Days"
         },
         {
           "Start": {
@@ -19258,21 +19308,6 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
-        },
-        {
-          "Start": {
-            "Y": 2026,
-            "M": 3,
-            "D": 7
-          },
-          "End": {
-            "Y": 2026,
-            "M": 3,
-            "D": 9
-          },
-          "Type": 1,
-          "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon 30th Anniversary: All Out"
         }
       ]
     },
@@ -21184,13 +21219,8 @@
             "M": 7,
             "D": 15
           },
-          "End": {
-            "Y": 2026,
-            "M": 3,
-            "D": 3
-          },
           "Type": 1,
-          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation / Precious Paths"
+          "Comment": "Pok\u00E9mon GO: Delightful Days"
         },
         {
           "Start": {
@@ -21221,21 +21251,6 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Three-Star Raid Boss"
-        },
-        {
-          "Start": {
-            "Y": 2026,
-            "M": 3,
-            "D": 7
-          },
-          "End": {
-            "Y": 2026,
-            "M": 3,
-            "D": 9
-          },
-          "Type": 1,
-          "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon 30th Anniversary: All Out"
         }
       ]
     },
@@ -24518,6 +24533,16 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Three-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 6
+          },
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Shadow Raid Boss"
         }
       ]
     },
@@ -25913,14 +25938,9 @@
             "M": 6,
             "D": 3
           },
-          "End": {
-            "Y": 2026,
-            "M": 3,
-            "D": 3
-          },
           "Type": 1,
           "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation / Precious Paths"
+          "Comment": "Pok\u00E9mon GO: Delightful Days"
         },
         {
           "Start": {
@@ -25940,17 +25960,17 @@
         {
           "Start": {
             "Y": 2026,
-            "M": 3,
-            "D": 7
+            "M": 5,
+            "D": 6
           },
           "End": {
             "Y": 2026,
-            "M": 3,
-            "D": 9
+            "M": 5,
+            "D": 12
           },
-          "Type": 1,
+          "Type": 10,
           "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon 30th Anniversary: All Out"
+          "Comment": "One-Star Raid Boss"
         }
       ]
     },
@@ -27295,6 +27315,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss (D\u00EDa de Muertos 2025, No Costume)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 4,
+            "D": 22
+          },
+          "End": {
+            "Y": 2026,
+            "M": 4,
+            "D": 28
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
         }
       ]
     },
@@ -28132,6 +28167,11 @@
             "M": 3,
             "D": 2
           },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 5
+          },
           "Shiny": 1,
           "Type": 13,
           "LocalizedStart": true,
@@ -28142,6 +28182,11 @@
             "Y": 2026,
             "M": 3,
             "D": 3
+          },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 5
           },
           "Type": 13,
           "LocalizedStart": true,
@@ -31993,6 +32038,21 @@
             "D": 23
           },
           "Shiny": 1,
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 6
+          },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 12
+          },
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Three-Star Raid Boss"
@@ -36752,6 +36812,11 @@
             "M": 3,
             "D": 2
           },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 5
+          },
           "Type": 13,
           "LocalizedStart": true,
           "Comment": "Three-Star Shadow Raid Boss"
@@ -40048,6 +40113,11 @@
             "M": 3,
             "D": 3
           },
+          "End": {
+            "Y": 2026,
+            "M": 4,
+            "D": 29
+          },
           "Type": 100,
           "LocalizedStart": true,
           "Comment": "Team GO Rocket Grunt"
@@ -40066,6 +40136,16 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Three-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 4,
+            "D": 30
+          },
+          "Type": 100,
+          "LocalizedStart": true,
+          "Comment": "Team GO Rocket Leader Cliff"
         }
       ]
     },
@@ -42666,9 +42746,29 @@
             "M": 3,
             "D": 2
           },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 5
+          },
           "Type": 13,
           "LocalizedStart": true,
           "Comment": "One-Star Shadow Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 4,
+            "D": 22
+          },
+          "End": {
+            "Y": 2026,
+            "M": 4,
+            "D": 28
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
         }
       ]
     },
@@ -43516,6 +43616,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Five-Star Raid Boss (Pok\u00E9mon GO Fest 2026: Copenhagen)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 7,
+            "D": 11
+          },
+          "End": {
+            "Y": 2026,
+            "M": 7,
+            "D": 12
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Super Mega Raid Boss (Pok\u00E9mon GO Fest 2026: Global)"
         }
       ]
     },
@@ -50658,7 +50773,7 @@
           },
           "Type": 23,
           "LocalizedStart": true,
-          "Comment": "Level 50 Challenge"
+          "Comment": "Level 80 Challenge"
         },
         {
           "Start": {
@@ -51030,6 +51145,21 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9mon GO Fest 2026: Copenhagen"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 7,
+            "D": 11
+          },
+          "End": {
+            "Y": 2026,
+            "M": 7,
+            "D": 12
+          },
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "Pok\u00E9mon GO Fest 2026: Global"
         }
       ]
     },
@@ -51071,7 +51201,7 @@
           },
           "Type": 23,
           "LocalizedStart": true,
-          "Comment": "Level 50 Challenge"
+          "Comment": "Level 80 Challenge"
         },
         {
           "Start": {
@@ -51281,6 +51411,21 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9mon GO Fest 2026: Copenhagen"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 7,
+            "D": 11
+          },
+          "End": {
+            "Y": 2026,
+            "M": 7,
+            "D": 12
+          },
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "Pok\u00E9mon GO Fest 2026: Global"
         }
       ]
     },
@@ -51351,7 +51496,7 @@
           },
           "Type": 23,
           "LocalizedStart": true,
-          "Comment": "Level 50 Challenge"
+          "Comment": "Level 80 Challenge"
         },
         {
           "Start": {
@@ -51441,6 +51586,21 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9mon GO Fest 2026: Copenhagen"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 7,
+            "D": 11
+          },
+          "End": {
+            "Y": 2026,
+            "M": 7,
+            "D": 12
+          },
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "Pok\u00E9mon GO Fest 2026: Global"
         }
       ]
     },
@@ -51482,7 +51642,7 @@
           },
           "Type": 23,
           "LocalizedStart": true,
-          "Comment": "Level 50 Challenge"
+          "Comment": "Level 80 Challenge"
         },
         {
           "Start": {
@@ -51778,6 +51938,21 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9mon GO Fest 2026: Copenhagen"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 7,
+            "D": 11
+          },
+          "End": {
+            "Y": 2026,
+            "M": 7,
+            "D": 12
+          },
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "Pok\u00E9mon GO Fest 2026: Global"
         }
       ]
     },
@@ -51819,7 +51994,7 @@
           },
           "Type": 23,
           "LocalizedStart": true,
-          "Comment": "Level 50 Challenge"
+          "Comment": "Level 80 Challenge"
         },
         {
           "Start": {
@@ -52104,6 +52279,21 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9mon GO Fest 2026: Copenhagen"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 7,
+            "D": 11
+          },
+          "End": {
+            "Y": 2026,
+            "M": 7,
+            "D": 12
+          },
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "Pok\u00E9mon GO Fest 2026: Global"
         }
       ]
     },
@@ -52145,7 +52335,7 @@
           },
           "Type": 23,
           "LocalizedStart": true,
-          "Comment": "Level 50 Challenge"
+          "Comment": "Level 80 Challenge"
         },
         {
           "Start": {
@@ -52234,6 +52424,21 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9mon GO Fest 2026: Copenhagen"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 7,
+            "D": 11
+          },
+          "End": {
+            "Y": 2026,
+            "M": 7,
+            "D": 12
+          },
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "Pok\u00E9mon GO Fest 2026: Global"
         }
       ]
     },
@@ -52320,7 +52525,7 @@
           },
           "Type": 23,
           "LocalizedStart": true,
-          "Comment": "Level 50 Challenge"
+          "Comment": "Level 80 Challenge"
         },
         {
           "Start": {
@@ -52513,6 +52718,21 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9mon GO Fest 2026: Copenhagen"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 7,
+            "D": 11
+          },
+          "End": {
+            "Y": 2026,
+            "M": 7,
+            "D": 12
+          },
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "Pok\u00E9mon GO Fest 2026: Global"
         }
       ]
     },
@@ -52552,7 +52772,7 @@
             "D": 18
           },
           "Type": 23,
-          "Comment": "Level 50 Challenge"
+          "Comment": "Level 80 Challenge"
         },
         {
           "Start": {
@@ -52831,6 +53051,21 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9mon GO Fest 2026: Copenhagen"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 7,
+            "D": 11
+          },
+          "End": {
+            "Y": 2026,
+            "M": 7,
+            "D": 12
+          },
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "Pok\u00E9mon GO Fest 2026: Global"
         }
       ]
     },
@@ -52872,7 +53107,7 @@
           },
           "Type": 23,
           "LocalizedStart": true,
-          "Comment": "Level 50 Challenge"
+          "Comment": "Level 80 Challenge"
         },
         {
           "Start": {
@@ -53243,6 +53478,21 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9mon GO Fest 2026: Copenhagen"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 7,
+            "D": 11
+          },
+          "End": {
+            "Y": 2026,
+            "M": 7,
+            "D": 12
+          },
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "Pok\u00E9mon GO Fest 2026: Global"
         }
       ]
     },
@@ -53284,7 +53534,7 @@
           },
           "Type": 23,
           "LocalizedStart": true,
-          "Comment": "Level 50 Challenge"
+          "Comment": "Level 80 Challenge"
         },
         {
           "Start": {
@@ -53358,6 +53608,21 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9mon GO Fest 2026: Copenhagen"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 7,
+            "D": 11
+          },
+          "End": {
+            "Y": 2026,
+            "M": 7,
+            "D": 12
+          },
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "Pok\u00E9mon GO Fest 2026: Global"
         }
       ]
     },
@@ -53414,7 +53679,7 @@
           },
           "Type": 23,
           "LocalizedStart": true,
-          "Comment": "Level 50 Challenge"
+          "Comment": "Level 80 Challenge"
         },
         {
           "Start": {
@@ -53425,50 +53690,6 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9Park KANTO"
-        },
-        {
-          "Start": {
-            "Y": 2026,
-            "M": 5,
-            "D": 25
-          },
-          "End": {
-            "Y": 2026,
-            "M": 6,
-            "D": 1
-          },
-          "Type": 1,
-          "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon GO Fest 2026: Tokyo"
-        },
-        {
-          "Start": {
-            "Y": 2026,
-            "M": 6,
-            "D": 4
-          },
-          "End": {
-            "Y": 2026,
-            "M": 6,
-            "D": 7
-          },
-          "Type": 1,
-          "Comment": "Pok\u00E9mon GO Fest 2026: Chicago"
-        },
-        {
-          "Start": {
-            "Y": 2026,
-            "M": 6,
-            "D": 11
-          },
-          "End": {
-            "Y": 2026,
-            "M": 6,
-            "D": 14
-          },
-          "Type": 1,
-          "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon GO Fest 2026: Copenhagen"
         }
       ]
     },
@@ -53540,7 +53761,7 @@
           },
           "Type": 23,
           "LocalizedStart": true,
-          "Comment": "Level 50 Challenge"
+          "Comment": "Level 80 Challenge"
         },
         {
           "Start": {
@@ -53809,6 +54030,21 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9mon GO Fest 2026: Copenhagen"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 7,
+            "D": 11
+          },
+          "End": {
+            "Y": 2026,
+            "M": 7,
+            "D": 12
+          },
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "Pok\u00E9mon GO Fest 2026: Global"
         }
       ]
     },
@@ -53865,7 +54101,7 @@
           },
           "Type": 23,
           "LocalizedStart": true,
-          "Comment": "Level 50 Challenge"
+          "Comment": "Level 80 Challenge"
         },
         {
           "Start": {
@@ -53983,6 +54219,21 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9mon GO Fest 2026: Copenhagen"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 7,
+            "D": 11
+          },
+          "End": {
+            "Y": 2026,
+            "M": 7,
+            "D": 12
+          },
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "Pok\u00E9mon GO Fest 2026: Global"
         }
       ]
     },
@@ -54024,7 +54275,7 @@
           },
           "Type": 23,
           "LocalizedStart": true,
-          "Comment": "Level 50 Challenge"
+          "Comment": "Level 80 Challenge"
         },
         {
           "Start": {
@@ -54324,6 +54575,21 @@
           "Start": {
             "Y": 2026,
             "M": 5,
+            "D": 5
+          },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 5
+          },
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "Pok\u00E9mon RUN 2026 in Seoul"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
             "D": 25
           },
           "End": {
@@ -54363,6 +54629,21 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9mon GO Fest 2026: Copenhagen"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 7,
+            "D": 11
+          },
+          "End": {
+            "Y": 2026,
+            "M": 7,
+            "D": 12
+          },
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "Pok\u00E9mon GO Fest 2026: Global"
         }
       ]
     },
@@ -54449,7 +54730,7 @@
           },
           "Type": 23,
           "LocalizedStart": true,
-          "Comment": "Level 50 Challenge"
+          "Comment": "Level 80 Challenge"
         },
         {
           "Start": {
@@ -54805,6 +55086,21 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9mon GO Fest 2026: Copenhagen"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 7,
+            "D": 11
+          },
+          "End": {
+            "Y": 2026,
+            "M": 7,
+            "D": 12
+          },
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "Pok\u00E9mon GO Fest 2026: Global"
         }
       ]
     },
@@ -54846,7 +55142,7 @@
           },
           "Type": 23,
           "LocalizedStart": true,
-          "Comment": "Level 50 Challenge"
+          "Comment": "Level 80 Challenge"
         },
         {
           "Start": {
@@ -54948,50 +55244,6 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9Park KANTO"
-        },
-        {
-          "Start": {
-            "Y": 2026,
-            "M": 5,
-            "D": 25
-          },
-          "End": {
-            "Y": 2026,
-            "M": 6,
-            "D": 1
-          },
-          "Type": 1,
-          "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon GO Fest 2026: Tokyo"
-        },
-        {
-          "Start": {
-            "Y": 2026,
-            "M": 6,
-            "D": 4
-          },
-          "End": {
-            "Y": 2026,
-            "M": 6,
-            "D": 7
-          },
-          "Type": 1,
-          "Comment": "Pok\u00E9mon GO Fest 2026: Chicago"
-        },
-        {
-          "Start": {
-            "Y": 2026,
-            "M": 6,
-            "D": 11
-          },
-          "End": {
-            "Y": 2026,
-            "M": 6,
-            "D": 14
-          },
-          "Type": 1,
-          "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon GO Fest 2026: Copenhagen"
         }
       ]
     },
@@ -55048,7 +55300,7 @@
           },
           "Type": 23,
           "LocalizedStart": true,
-          "Comment": "Level 50 Challenge"
+          "Comment": "Level 80 Challenge"
         },
         {
           "Start": {
@@ -55078,6 +55330,21 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9mon GO Fest 2026: Copenhagen"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 7,
+            "D": 11
+          },
+          "End": {
+            "Y": 2026,
+            "M": 7,
+            "D": 12
+          },
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "Pok\u00E9mon GO Fest 2026: Global"
         }
       ]
     },
@@ -55149,7 +55416,7 @@
           },
           "Type": 23,
           "LocalizedStart": true,
-          "Comment": "Level 50 Challenge"
+          "Comment": "Level 80 Challenge"
         },
         {
           "Start": {
@@ -55394,6 +55661,21 @@
           "Start": {
             "Y": 2026,
             "M": 5,
+            "D": 5
+          },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 5
+          },
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "Pok\u00E9mon RUN 2026 in Seoul"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
             "D": 25
           },
           "End": {
@@ -55433,6 +55715,21 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9mon GO Fest 2026: Copenhagen"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 7,
+            "D": 11
+          },
+          "End": {
+            "Y": 2026,
+            "M": 7,
+            "D": 12
+          },
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "Pok\u00E9mon GO Fest 2026: Global"
         }
       ]
     },
@@ -55474,7 +55771,7 @@
           },
           "Type": 23,
           "LocalizedStart": true,
-          "Comment": "Level 50 Challenge"
+          "Comment": "Level 80 Challenge"
         },
         {
           "Start": {
@@ -55880,6 +56177,21 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9mon GO Fest 2026: Copenhagen"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 7,
+            "D": 11
+          },
+          "End": {
+            "Y": 2026,
+            "M": 7,
+            "D": 12
+          },
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "Pok\u00E9mon GO Fest 2026: Global"
         }
       ]
     },
@@ -55951,7 +56263,7 @@
           },
           "Type": 23,
           "LocalizedStart": true,
-          "Comment": "Level 50 Challenge"
+          "Comment": "Level 80 Challenge"
         },
         {
           "Start": {
@@ -56294,6 +56606,21 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9mon GO Fest 2026: Copenhagen"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 7,
+            "D": 11
+          },
+          "End": {
+            "Y": 2026,
+            "M": 7,
+            "D": 12
+          },
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "Pok\u00E9mon GO Fest 2026: Global"
         }
       ]
     },
@@ -56380,7 +56707,7 @@
           },
           "Type": 23,
           "LocalizedStart": true,
-          "Comment": "Level 50 Challenge"
+          "Comment": "Level 80 Challenge"
         },
         {
           "Start": {
@@ -56641,6 +56968,21 @@
           "Start": {
             "Y": 2026,
             "M": 5,
+            "D": 5
+          },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 5
+          },
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "Pok\u00E9mon RUN 2026 in Seoul"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
             "D": 25
           },
           "End": {
@@ -56680,6 +57022,21 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9mon GO Fest 2026: Copenhagen"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 7,
+            "D": 11
+          },
+          "End": {
+            "Y": 2026,
+            "M": 7,
+            "D": 12
+          },
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "Pok\u00E9mon GO Fest 2026: Global"
         }
       ]
     },
@@ -56721,7 +57078,7 @@
           },
           "Type": 23,
           "LocalizedStart": true,
-          "Comment": "Level 50 Challenge"
+          "Comment": "Level 80 Challenge"
         },
         {
           "Start": {
@@ -56825,6 +57182,21 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9mon GO Fest 2026: Copenhagen"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 7,
+            "D": 11
+          },
+          "End": {
+            "Y": 2026,
+            "M": 7,
+            "D": 12
+          },
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "Pok\u00E9mon GO Fest 2026: Global"
         }
       ]
     },
@@ -56881,7 +57253,7 @@
           },
           "Type": 23,
           "LocalizedStart": true,
-          "Comment": "Level 50 Challenge"
+          "Comment": "Level 80 Challenge"
         },
         {
           "Start": {
@@ -56941,6 +57313,21 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9mon GO Fest 2026: Copenhagen"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 7,
+            "D": 11
+          },
+          "End": {
+            "Y": 2026,
+            "M": 7,
+            "D": 12
+          },
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "Pok\u00E9mon GO Fest 2026: Global"
         }
       ]
     },
@@ -56982,7 +57369,7 @@
           },
           "Type": 23,
           "LocalizedStart": true,
-          "Comment": "Level 50 Challenge"
+          "Comment": "Level 80 Challenge"
         },
         {
           "Start": {
@@ -57070,6 +57457,21 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9mon GO Fest 2026: Copenhagen"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 7,
+            "D": 11
+          },
+          "End": {
+            "Y": 2026,
+            "M": 7,
+            "D": 12
+          },
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "Pok\u00E9mon GO Fest 2026: Global"
         }
       ]
     },
@@ -57111,7 +57513,7 @@
           },
           "Type": 23,
           "LocalizedStart": true,
-          "Comment": "Level 50 Challenge"
+          "Comment": "Level 80 Challenge"
         },
         {
           "Start": {
@@ -57259,6 +57661,21 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9mon GO Fest 2026: Copenhagen"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 7,
+            "D": 11
+          },
+          "End": {
+            "Y": 2026,
+            "M": 7,
+            "D": 12
+          },
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "Pok\u00E9mon GO Fest 2026: Global"
         }
       ]
     },
@@ -57360,6 +57777,21 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9mon GO Fest 2026: Copenhagen"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 7,
+            "D": 11
+          },
+          "End": {
+            "Y": 2026,
+            "M": 7,
+            "D": 12
+          },
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "Pok\u00E9mon GO Fest 2026: Global"
         }
       ]
     },
@@ -57623,6 +58055,21 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9mon GO Fest 2026: Copenhagen"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 7,
+            "D": 11
+          },
+          "End": {
+            "Y": 2026,
+            "M": 7,
+            "D": 12
+          },
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "Pok\u00E9mon GO Fest 2026: Global"
         }
       ]
     },
@@ -57792,6 +58239,21 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9mon GO Fest 2026: Copenhagen"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 7,
+            "D": 11
+          },
+          "End": {
+            "Y": 2026,
+            "M": 7,
+            "D": 12
+          },
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "Pok\u00E9mon GO Fest 2026: Global"
         }
       ]
     },
@@ -58827,6 +59289,16 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 4,
+            "D": 30
+          },
+          "Type": 100,
+          "LocalizedStart": true,
+          "Comment": "Team GO Rocket Leader Arlo"
         }
       ]
     },
@@ -59381,6 +59853,11 @@
             "Y": 2026,
             "M": 3,
             "D": 2
+          },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 5
           },
           "Type": 13,
           "LocalizedStart": true,
@@ -60538,6 +61015,21 @@
             "Y": 2025,
             "M": 9,
             "D": 2
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 4,
+            "D": 22
+          },
+          "End": {
+            "Y": 2026,
+            "M": 4,
+            "D": 28
           },
           "Type": 10,
           "LocalizedStart": true,
@@ -64953,13 +65445,8 @@
             "M": 7,
             "D": 15
           },
-          "End": {
-            "Y": 2026,
-            "M": 3,
-            "D": 3
-          },
           "Type": 1,
-          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation / Precious Paths"
+          "Comment": "Pok\u00E9mon GO: Delightful Days"
         }
       ]
     },
@@ -65631,6 +66118,36 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Three-Star Raid Boss (Ultra Unlock 2025: Steel and Scales)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 4,
+            "D": 22
+          },
+          "End": {
+            "Y": 2026,
+            "M": 4,
+            "D": 28
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 5
+          },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 5
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Raid Boss"
         }
       ]
     },
@@ -67126,6 +67643,11 @@
             "Y": 2026,
             "M": 3,
             "D": 2
+          },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 5
           },
           "Type": 13,
           "LocalizedStart": true,
@@ -69922,6 +70444,16 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 6
+          },
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "One-Star Shadow Raid Boss"
         }
       ]
     },
@@ -76884,14 +77416,9 @@
             "M": 9,
             "D": 2
           },
-          "End": {
-            "Y": 2026,
-            "M": 3,
-            "D": 3
-          },
           "Type": 1,
           "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon GO: Tales of Transformation / Precious Paths"
+          "Comment": "Pok\u00E9mon GO: Tales of Transformation"
         },
         {
           "Start": {
@@ -78930,6 +79457,16 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Mega Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 6
+          },
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "One-Star Shadow Raid Boss"
         }
       ]
     },
@@ -79977,6 +80514,21 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Route Encounter (Into the Depths, Accidental Release)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 3,
+            "D": 3
+          },
+          "End": {
+            "Y": 2026,
+            "M": 6,
+            "D": 2
+          },
+          "Type": 1,
+          "LocalizedStart": true,
+          "Comment": "Pok\u00E9mon GO: Memories in Motion"
         }
       ]
     },
@@ -80774,6 +81326,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Mega Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 5
+          },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 5
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Raid Boss"
         }
       ]
     },
@@ -81149,6 +81716,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 4,
+            "D": 22
+          },
+          "End": {
+            "Y": 2026,
+            "M": 4,
+            "D": 28
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
         }
       ]
     },
@@ -81398,6 +81980,21 @@
             "Y": 2025,
             "M": 12,
             "D": 4
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Mega Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 27
+          },
+          "End": {
+            "Y": 2026,
+            "M": 6,
+            "D": 2
           },
           "Type": 10,
           "LocalizedStart": true,
@@ -83949,6 +84546,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Mega Raid Boss (Mega Camerupt Raid Day)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 6
+          },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 12
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Mega Raid Boss"
         }
       ]
     },
@@ -85009,6 +85621,11 @@
             "M": 3,
             "D": 2
           },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 5
+          },
           "Type": 13,
           "LocalizedStart": true,
           "Comment": "One-Star Shadow Raid Boss"
@@ -85588,6 +86205,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Mega Raid Boss (Pok\u00E9mon GO Tour: Kalos \u2013 Mega Night)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 20
+          },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 26
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Mega Raid Boss"
         }
       ]
     },
@@ -88588,9 +89220,24 @@
             "M": 3,
             "D": 3
           },
+          "End": {
+            "Y": 2026,
+            "M": 4,
+            "D": 29
+          },
           "Type": 100,
           "LocalizedStart": true,
           "Comment": "Team GO Rocket Grunt"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 4,
+            "D": 30
+          },
+          "Type": 100,
+          "LocalizedStart": true,
+          "Comment": "Team GO Rocket Leader Sierra"
         }
       ]
     },
@@ -90353,6 +91000,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Mega Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 13
+          },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 19
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Mega Raid Boss"
         }
       ]
     },
@@ -90646,6 +91308,16 @@
           "Type": 100,
           "LocalizedStart": true,
           "Comment": "Team GO Rocket Grunt"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 6
+          },
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "One-Star Shadow Raid Boss"
         }
       ]
     },
@@ -91566,6 +92238,21 @@
           "Type": 13,
           "LocalizedStart": true,
           "Comment": "One-Star Shadow Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 6
+          },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 12
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
         }
       ]
     },
@@ -92364,6 +93051,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss (Steeled Resolve 2026)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 5
+          },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 5
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
         }
       ]
     },
@@ -94443,6 +95145,21 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9mon 30th Anniversary: All Out"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 18
+          },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 24
+          },
+          "Type": 110,
+          "LocalizedStart": true,
+          "Comment": "Five-Star Power Spot Boss"
         }
       ]
     },
@@ -97867,6 +98584,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Three-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 4,
+            "D": 15
+          },
+          "End": {
+            "Y": 2026,
+            "M": 4,
+            "D": 21
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Raid Boss"
         }
       ]
     },
@@ -100675,6 +101407,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss (Steeled Resolve 2026)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 6
+          },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 12
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
         }
       ]
     },
@@ -101104,6 +101851,16 @@
           },
           "Type": 254,
           "Comment": "Version 0.269.0 Premier Ball Issue"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 25
+          },
+          "Type": 110,
+          "LocalizedStart": true,
+          "Comment": "One-Star Power Spot Boss"
         }
       ]
     },
@@ -103317,6 +104074,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 5
+          },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 5
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
         }
       ]
     },
@@ -104169,28 +104941,9 @@
             "M": 3,
             "D": 4
           },
-          "End": {
-            "Y": 2025,
-            "M": 6,
-            "D": 3
-          },
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9mon GO: Might and Mastery"
-        },
-        {
-          "Start": {
-            "Y": 2025,
-            "M": 7,
-            "D": 15
-          },
-          "End": {
-            "Y": 2025,
-            "M": 12,
-            "D": 2
-          },
-          "Type": 1,
-          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation"
         },
         {
           "Start": {
@@ -104251,21 +105004,6 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Mega Raid Boss (Pok\u00E9mon GO Tour: Kalos \u2013 Global, Day 1)"
-        },
-        {
-          "Start": {
-            "Y": 2026,
-            "M": 3,
-            "D": 7
-          },
-          "End": {
-            "Y": 2026,
-            "M": 3,
-            "D": 9
-          },
-          "Type": 1,
-          "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon 30th Anniversary: All Out"
         }
       ]
     },
@@ -109931,6 +110669,21 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9mon 30th Anniversary: All Out"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 6
+          },
+          "End": {
+            "Y": 2026,
+            "M": 6,
+            "D": 2
+          },
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "Five-Star Shadow Raid Boss"
         }
       ]
     },
@@ -115660,6 +116413,16 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 4
+          },
+          "Type": 110,
+          "LocalizedStart": true,
+          "Comment": "One-Star Power Spot Boss"
         }
       ]
     },
@@ -117017,16 +117780,16 @@
           "Start": {
             "Y": 2026,
             "M": 3,
-            "D": 7
+            "D": 3
           },
           "End": {
             "Y": 2026,
-            "M": 3,
-            "D": 9
+            "M": 6,
+            "D": 2
           },
           "Type": 1,
           "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon 30th Anniversary: All Out"
+          "Comment": "Pok\u00E9mon GO: Memories in Motion"
         }
       ]
     },
@@ -117973,14 +118736,9 @@
             "M": 6,
             "D": 3
           },
-          "End": {
-            "Y": 2026,
-            "M": 3,
-            "D": 3
-          },
           "Type": 1,
           "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation / Precious Paths"
+          "Comment": "Pok\u00E9mon GO: Delightful Days"
         },
         {
           "Start": {
@@ -118308,13 +119066,8 @@
             "M": 7,
             "D": 15
           },
-          "End": {
-            "Y": 2026,
-            "M": 3,
-            "D": 3
-          },
           "Type": 1,
-          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation / Precious Paths"
+          "Comment": "Pok\u00E9mon GO: Delightful Days"
         },
         {
           "Start": {
@@ -118372,21 +119125,6 @@
           "Type": 100,
           "LocalizedStart": true,
           "Comment": "Team GO Rocket Grunt"
-        },
-        {
-          "Start": {
-            "Y": 2026,
-            "M": 3,
-            "D": 7
-          },
-          "End": {
-            "Y": 2026,
-            "M": 3,
-            "D": 9
-          },
-          "Type": 1,
-          "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon 30th Anniversary: All Out"
         }
       ]
     },
@@ -118562,13 +119300,8 @@
             "M": 7,
             "D": 15
           },
-          "End": {
-            "Y": 2026,
-            "M": 3,
-            "D": 3
-          },
           "Type": 1,
-          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation / Precious Paths"
+          "Comment": "Pok\u00E9mon GO: Delightful Days"
         },
         {
           "Start": {
@@ -118599,21 +119332,6 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
-        },
-        {
-          "Start": {
-            "Y": 2026,
-            "M": 3,
-            "D": 7
-          },
-          "End": {
-            "Y": 2026,
-            "M": 3,
-            "D": 9
-          },
-          "Type": 1,
-          "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon 30th Anniversary: All Out"
         }
       ]
     },
@@ -121423,6 +122141,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 4,
+            "D": 15
+          },
+          "End": {
+            "Y": 2026,
+            "M": 4,
+            "D": 21
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
         }
       ]
     },
@@ -122396,6 +123129,11 @@
             "M": 3,
             "D": 2
           },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 5
+          },
           "Shiny": 1,
           "Type": 13,
           "LocalizedStart": true,
@@ -122406,6 +123144,11 @@
             "Y": 2026,
             "M": 3,
             "D": 3
+          },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 5
           },
           "Type": 13,
           "LocalizedStart": true,
@@ -123654,6 +124397,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss (Ultra Unlock 2025: Steel and Scales)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 5
+          },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 5
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
         }
       ]
     },
@@ -126633,6 +127391,21 @@
             "Y": 2025,
             "M": 3,
             "D": 2
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 6
+          },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 12
           },
           "Type": 10,
           "LocalizedStart": true,
@@ -133711,13 +134484,8 @@
             "M": 7,
             "D": 15
           },
-          "End": {
-            "Y": 2026,
-            "M": 3,
-            "D": 3
-          },
           "Type": 1,
-          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation / Precious Paths"
+          "Comment": "Pok\u00E9mon GO: Delightful Days"
         },
         {
           "Start": {
@@ -133748,21 +134516,6 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
-        },
-        {
-          "Start": {
-            "Y": 2026,
-            "M": 3,
-            "D": 7
-          },
-          "End": {
-            "Y": 2026,
-            "M": 3,
-            "D": 9
-          },
-          "Type": 1,
-          "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon 30th Anniversary: All Out"
         }
       ]
     },
@@ -134806,6 +135559,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 6
+          },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 12
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
         }
       ]
     },
@@ -135450,6 +136218,16 @@
           "Type": 110,
           "LocalizedStart": true,
           "Comment": "One-Star Power Spot Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 6
+          },
+          "Type": 13,
+          "LocalizedStart": true,
+          "Comment": "One-Star Shadow Raid Boss"
         }
       ]
     },
@@ -136965,16 +137743,16 @@
           "Start": {
             "Y": 2026,
             "M": 3,
-            "D": 7
+            "D": 3
           },
           "End": {
             "Y": 2026,
-            "M": 3,
-            "D": 9
+            "M": 6,
+            "D": 2
           },
           "Type": 1,
           "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon 30th Anniversary: All Out"
+          "Comment": "Pok\u00E9mon GO: Memories in Motion"
         }
       ]
     },
@@ -137351,6 +138129,21 @@
           "Type": 100,
           "LocalizedStart": true,
           "Comment": "Team GO Rocket Grunt"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 4,
+            "D": 15
+          },
+          "End": {
+            "Y": 2026,
+            "M": 4,
+            "D": 21
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
         }
       ]
     },
@@ -137486,13 +138279,8 @@
             "M": 7,
             "D": 15
           },
-          "End": {
-            "Y": 2026,
-            "M": 3,
-            "D": 3
-          },
           "Type": 1,
-          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation / Precious Paths"
+          "Comment": "Pok\u00E9mon GO: Delightful Days"
         }
       ]
     },
@@ -137590,13 +138378,8 @@
             "M": 7,
             "D": 15
           },
-          "End": {
-            "Y": 2026,
-            "M": 3,
-            "D": 3
-          },
           "Type": 1,
-          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation / Precious Paths"
+          "Comment": "Pok\u00E9mon GO: Delightful Days"
         }
       ]
     },
@@ -137683,13 +138466,8 @@
             "M": 7,
             "D": 15
           },
-          "End": {
-            "Y": 2026,
-            "M": 3,
-            "D": 3
-          },
           "Type": 1,
-          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation / Precious Paths"
+          "Comment": "Pok\u00E9mon GO: Delightful Days"
         }
       ]
     },
@@ -137776,13 +138554,8 @@
             "M": 7,
             "D": 15
           },
-          "End": {
-            "Y": 2026,
-            "M": 3,
-            "D": 3
-          },
           "Type": 1,
-          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation / Precious Paths"
+          "Comment": "Pok\u00E9mon GO: Delightful Days"
         }
       ]
     },
@@ -140885,6 +141658,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 4,
+            "D": 29
+          },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 5
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss (Growing Beyond)"
         }
       ]
     },
@@ -141041,6 +141829,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 4,
+            "D": 29
+          },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 5
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss (Growing Beyond)"
         }
       ]
     },
@@ -142212,14 +143015,9 @@
             "M": 6,
             "D": 3
           },
-          "End": {
-            "Y": 2026,
-            "M": 3,
-            "D": 3
-          },
           "Type": 1,
           "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon GO: Delightful Days / Tales of Transformation / Precious Paths"
+          "Comment": "Pok\u00E9mon GO: Delightful Days"
         },
         {
           "Start": {
@@ -142511,6 +143309,21 @@
             "Y": 2026,
             "M": 1,
             "D": 16
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 4,
+            "D": 15
+          },
+          "End": {
+            "Y": 2026,
+            "M": 4,
+            "D": 21
           },
           "Type": 10,
           "LocalizedStart": true,
@@ -143251,6 +144064,21 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9mon 30th Anniversary: All Out"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 4,
+            "D": 22
+          },
+          "End": {
+            "Y": 2026,
+            "M": 4,
+            "D": 28
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Raid Boss"
         }
       ]
     },
@@ -144255,6 +145083,36 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9mon 30th Anniversary: All Out"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 20
+          },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 26
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Five-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 20
+          },
+          "End": {
+            "Y": 2026,
+            "M": 6,
+            "D": 2
+          },
+          "Type": 90,
+          "LocalizedStart": true,
+          "Comment": "Reward Encounter (Pok\u00E9mon GO: Memories in Motion)"
         }
       ]
     },
@@ -144443,6 +145301,36 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9mon 30th Anniversary: All Out"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 27
+          },
+          "End": {
+            "Y": 2026,
+            "M": 6,
+            "D": 2
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Five-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 27
+          },
+          "End": {
+            "Y": 2026,
+            "M": 6,
+            "D": 2
+          },
+          "Type": 90,
+          "LocalizedStart": true,
+          "Comment": "Reward Encounter (Pok\u00E9mon GO: Memories in Motion)"
         }
       ]
     },
@@ -144927,6 +145815,37 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Five-Star Raid Boss (Pok\u00E9mon 30th Anniversary: All Out)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 3
+          },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 3
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "NoEndTolerance": true,
+          "Comment": "Five-Star Raid Boss (Accidental Release)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 6
+          },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 12
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Five-Star Raid Boss"
         }
       ]
     },
@@ -145058,6 +145977,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Five-Star Raid Boss (Pok\u00E9mon 30th Anniversary: All Out)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 13
+          },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 19
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Five-Star Raid Boss"
         }
       ]
     },
@@ -145177,6 +146111,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Five-Star Raid Boss (Pok\u00E9mon 30th Anniversary: All Out)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 13
+          },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 19
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Five-Star Raid Boss"
         }
       ]
     },
@@ -145295,6 +146244,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Five-Star Raid Boss (Pok\u00E9mon 30th Anniversary: All Out)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 13
+          },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 19
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Five-Star Raid Boss"
         }
       ]
     },
@@ -146466,7 +147430,7 @@
           "Shiny": 1,
           "Type": 41,
           "LocalizedStart": true,
-          "Comment": "Pok\u00E9mon GO Fest 2026: Tokyo"
+          "Comment": "Pok\u00E9mon GO Fest 2026: A Thunderous Discovery in Tokyo!"
         }
       ]
     },
@@ -147969,6 +148933,22 @@
           "End": {
             "Y": 2025,
             "M": 10,
+            "D": 21
+          },
+          "Shiny": 1,
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "One-Star Raid Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 4,
+            "D": 15
+          },
+          "End": {
+            "Y": 2026,
+            "M": 4,
             "D": 21
           },
           "Shiny": 1,
@@ -149882,6 +150862,21 @@
           "Type": 110,
           "LocalizedStart": true,
           "Comment": "Three-Star Power Spot Boss"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 23
+          },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 23
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Super Mega Raid Boss (Falinks Super Mega Raid Day)"
         }
       ]
     },
@@ -150162,6 +151157,21 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Pok\u00E9mon 30th Anniversary: All Out"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 5
+          },
+          "End": {
+            "Y": 2026,
+            "M": 5,
+            "D": 5
+          },
+          "Type": 10,
+          "LocalizedStart": true,
+          "Comment": "Three-Star Raid Boss"
         }
       ]
     },
@@ -152435,6 +153445,28 @@
       ]
     },
     {
+      "Species": 955,
+      "Available": true,
+      "Data": [
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 12
+          },
+          "Shiny": 1,
+          "Type": 4,
+          "LocalizedStart": true,
+          "Comment": "Spring Marathon"
+        }
+      ]
+    },
+    {
+      "Species": 956,
+      "Available": true,
+      "Data": []
+    },
+    {
       "Species": 957,
       "Available": true,
       "Data": [
@@ -152963,6 +153995,21 @@
           "Type": 10,
           "LocalizedStart": true,
           "Comment": "Three-Star Raid Boss (Steeled Resolve 2026)"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 7
+          },
+          "End": {
+            "Y": 2026,
+            "M": 6,
+            "D": 4
+          },
+          "Type": 29,
+          "LocalizedStart": true,
+          "Comment": "GO Pass Deluxe: May 2026"
         }
       ]
     },
@@ -153083,6 +154130,21 @@
           "Type": 1,
           "LocalizedStart": true,
           "Comment": "Carnival of Flamigo"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 3,
+            "D": 5
+          },
+          "End": {
+            "Y": 2026,
+            "M": 4,
+            "D": 9
+          },
+          "Type": 29,
+          "LocalizedStart": true,
+          "Comment": "GO Pass Deluxe: March 2026 (Accidental Release)"
         }
       ]
     },
@@ -153797,6 +154859,22 @@
           "Type": 29,
           "LocalizedStart": true,
           "Comment": "GO Pass Deluxe: April 2026"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 12
+          },
+          "End": {
+            "Y": 2026,
+            "M": 6,
+            "D": 4
+          },
+          "Shiny": 1,
+          "Type": 29,
+          "LocalizedStart": true,
+          "Comment": "GO Pass Deluxe: May 2026"
         }
       ]
     },
@@ -153916,6 +154994,22 @@
           "Type": 29,
           "LocalizedStart": true,
           "Comment": "GO Pass Deluxe: April 2026"
+        },
+        {
+          "Start": {
+            "Y": 2026,
+            "M": 5,
+            "D": 12
+          },
+          "End": {
+            "Y": 2026,
+            "M": 6,
+            "D": 4
+          },
+          "Shiny": 1,
+          "Type": 29,
+          "LocalizedStart": true,
+          "Comment": "GO Pass Deluxe: May 2026"
         }
       ]
     },
