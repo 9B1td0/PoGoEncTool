@@ -14,8 +14,8 @@ namespace PoGoEncTool.Core;
 public static class BulkActions
 {
     public static BossType Type { get; set; } = BossType.Raid;
-    public static string Season { get; set; } = "Memories in Motion";
-    public static PogoDate SeasonEnd { get; set; } = new(2026, 06, 02);
+    public static string Season { get; set; } = "Twilight Trails";
+    public static PogoDate SeasonEnd { get; set; } = new(2026, 12, 01);
 
     public static void AddBossEncounters(PogoEncounterList list)
     {
@@ -100,28 +100,24 @@ public static class BulkActions
 
     public static void AddMonthlyRaidBosses(PogoEncounterList list)
     {
-        var bosses = new List<(ushort Species, byte Form, PogoShiny Shiny, PogoDate Start, PogoDate End, bool IsMega, byte MegaForm)>
+        var bosses = new List<(ushort Species, byte Form, PogoShiny Shiny, PogoDate Start, PogoDate End, MegaType Mega)>
         {
             // Five-Star
-            new((int)Bulbasaur, 0, Random, new PogoDate(), new PogoDate(), false, 0),
+            new((int)Bulbasaur, 0, Random, new PogoDate(), new PogoDate(), MegaType.None),
 
             // Mega
-            new((int)Bulbasaur, 0, Random, new PogoDate(), new PogoDate(), true, 0),
+            new((int)Bulbasaur, 0, Random, new PogoDate(), new PogoDate(), MegaType.Normal),
         };
 
         foreach (var enc in bosses)
         {
+            bool mega = enc.Mega != MegaType.None;
             var pk = list.GetDetails(enc.Species, enc.Form);
-            var comment = "Five-Star Raid Boss";
-            if (enc.IsMega)
-            {
-                comment = enc.MegaForm switch
-                {
-                    0 when enc.Species is (int)Charizard or (int)Raichu or (int)Mewtwo => $"Mega Raid Boss (Mega {(Species)enc.Species} X)",
-                    1 when enc.Species is (int)Charizard or (int)Raichu or (int)Mewtwo => $"Mega Raid Boss (Mega {(Species)enc.Species} Y)",
-                    _ => "Mega Raid Boss",
-                };
-            }
+            var comment = mega ? "Mega Raid Boss" : "Five-Star Raid Boss";
+
+            // specify which Mega-Evolved form it is
+            if (mega && enc.Mega != MegaType.Normal)
+                comment += $" (Mega {(Species)enc.Species} {enc.Mega})";
 
             var type = enc.Species switch
             {
@@ -148,10 +144,10 @@ public static class BulkActions
             pk.Add(entry); // add the raid entry!
 
             // add an accompanying GBL encounter if it has not appeared in research before, or continues to appear in the wild
-            if ((!enc.IsMega) && !pk.Data.Any(z => IsLessRestrictiveEncounter(z.Type) && z.Shiny == enc.Shiny && z.End == null))
+            if ((!mega) && !pk.Data.Any(z => IsLessRestrictiveEncounter(z.Type) && z.Shiny == enc.Shiny && z.End == null))
             {
-                // some Legendary and Mythical Pokémon are exempt because one of their forms or pre-evolutions have been in research, and they revert or can be changed upon transfer to HOME
-                if (enc.Species is (int)Giratina or (int)Genesect or (int)Cosmoem or (int)Solgaleo or (int)Lunala)
+                // some Special Pokémon are exempt because one of their other forms have been in research, and their form is reverted when sent to HOME
+                if (enc.Species is (int)Giratina or (int)Genesect)
                     continue;
                 AddEncounterGBL(list, enc.Species, enc.Form, enc.Shiny, enc.Start);
             }
@@ -223,57 +219,70 @@ public static class BulkActions
         }
     }
 
-    private static byte GetPowerSpotTier(ushort species) => (Species)species switch
+    private static byte GetPowerSpotTier(ushort species)
     {
-        Bulbasaur => 1,
-        Charmander => 1,
-        Squirtle => 1,
-        Caterpie => 1,
-        Pikachu => 1,
-        Growlithe => 1,
-        Abra => 1,
-        Machop => 2,
-        Gastly => 1,
-        Krabby => 1,
-        Hitmonlee => 3,
-        Hitmonchan => 3,
-        Chansey => 3,
-        Eevee => 2,
-        Omanyte => 1,
-        Kabuto => 1,
-        Shuckle => 2,
-        Ralts => 1,
-        Sableye => 3,
-        Wailmer => 2,
-        Trapinch => 1,
-        Spheal => 1,
-        Beldum => 3,
-        Combee => 1, // verify
-        Pidove => 1,
-        Roggenrola => 1,
-        Woobat => 1,
-        Drilbur => 1,
-        Cottonee => 1,
-        Darumaka => 2,
-        Trubbish => 1,
-        Cryogonal => 3,
-        Inkay => 1,
-        Bounsweet => 1,
-        Passimian => 3,
-        Drampa => 3,
-        Grookey => 1,
-        Scorbunny => 1,
-        Sobble => 1,
-        Skwovet => 1,
-        Rookidee => 1,
-        Wooloo => 1,
-        Toxtricity => 4,
-        Hatenna => 1,
-        Falinks => 3,
-        Duraludon => 4,
-        _ when SpeciesCategory.IsSpecialPokemon(species) => 5,
-        _ => throw new System.Exception("Species has not been released as a Dynamax Pokémon yet."),
-    };
+        if (SpeciesCategory.IsSpecialPokemon(species))
+            return 5;
+
+        return (Species)species switch
+        {
+            Bulbasaur => 1,
+            Charmander => 1,
+            Squirtle => 1,
+            Caterpie => 1,
+            Pikachu => 1,
+            Growlithe => 1,
+            Abra => 1,
+            Machop => 2,
+            Gastly => 1,
+            Krabby => 1,
+            Hitmonlee => 3,
+            Hitmonchan => 3,
+            Rhyhorn => 2, // verify
+            Chansey => 3,
+            Electabuzz => 3,
+            Magmar => 3,
+            Magikarp => 1,
+            Eevee => 2,
+            Omanyte => 1,
+            Kabuto => 1,
+            Hoothoot => 1,
+            Shuckle => 2,
+            Hitmontop => 3,
+            Ralts => 1,
+            Sableye => 3,
+            Wailmer => 2,
+            Trapinch => 1,
+            Feebas => 2,
+            Spheal => 1,
+            Beldum => 3,
+            Combee => 1,
+            Pidove => 1,
+            Roggenrola => 1,
+            Woobat => 1,
+            Drilbur => 1,
+            Cottonee => 1,
+            Darumaka => 2,
+            Trubbish => 1,
+            Cryogonal => 3,
+            Deino => 3,
+            Inkay => 1,
+            Bounsweet => 1,
+            Passimian => 3,
+            Drampa => 3,
+            Grookey => 1,
+            Scorbunny => 1,
+            Sobble => 1,
+            Skwovet => 1,
+            Rookidee => 1,
+            Wooloo => 1,
+            Toxtricity => 4,
+            Hatenna => 1,
+            Falinks => 3,
+            Duraludon => 4,
+            _ => throw new System.Exception("Pokémon has not yet been released as a Dynamax Pokémon."),
+        };
+    }
 
     public enum BossType : byte
     {
@@ -281,6 +290,15 @@ public static class BulkActions
         ShadowRaid = 1,
         MaxBattleDynamax = 2,
         MaxBattleGigantamax = 3,
+    }
+
+    public enum MegaType : byte
+    {
+        None = 0,
+        Normal = 1,
+        X = 2,
+        Y = 3,
+        Z = 4,
     }
 }
 #endif
