@@ -2,6 +2,7 @@ using PKHeX.Core;
 using System.Collections.Generic;
 using System.Linq;
 using static PKHeX.Core.Species;
+using static PoGoEncTool.Core.PogoBallRestriction;
 using static PoGoEncTool.Core.PogoShiny;
 using static PoGoEncTool.Core.PogoType;
 
@@ -21,7 +22,7 @@ public static class BulkActions
     {
         var bosses = new List<(ushort Species, byte Form, PogoShiny Shiny, byte Tier)>
         {
-            new((int)Bulbasaur, 0, Random, 1),
+            ((int)Bulbasaur, 0, Random, 1),
         };
 
         foreach (var enc in bosses)
@@ -29,28 +30,39 @@ public static class BulkActions
             var pk = list.GetDetails(enc.Species, enc.Form);
             var boss = Type switch
             {
+                BossType.Raid => "Raid Boss",
                 BossType.ShadowRaid => "Shadow Raid Boss",
                 BossType.MaxBattleDynamax or BossType.MaxBattleGigantamax => "Power Spot Boss",
-                _ => "Raid Boss"
+                _ => throw new System.ArgumentOutOfRangeException(nameof(Type)),
             };
 
             var type = Type switch
             {
+                BossType.Raid => Raid,
                 BossType.ShadowRaid => RaidShadow,
                 BossType.MaxBattleDynamax => MaxBattle,
                 BossType.MaxBattleGigantamax => MaxBattleGigantamax,
-                _ => Raid,
+                _ => throw new System.ArgumentOutOfRangeException(nameof(Type)),
             };
 
             var tier = Type switch
             {
+                BossType.Raid or BossType.ShadowRaid => enc.Tier,
                 BossType.MaxBattleDynamax => GetPowerSpotTier(enc.Species),
                 BossType.MaxBattleGigantamax => (byte)6,
-                _ => enc.Tier,
+                _ => throw new System.ArgumentOutOfRangeException(nameof(Type)),
             };
 
             if (type is Raid or RaidShadow or MaxBattle && SpeciesCategory.IsMythical(enc.Species))
                 type++;
+
+            byte iv = type switch
+            {
+                Raid or RaidShadow or MaxBattle or MaxBattleGigantamax => 1,
+                RaidMythical or MaxBattleMythical => 10,
+                RaidShadowMythical => 8,
+                _ => throw new System.ArgumentOutOfRangeException(nameof(type)),
+            };
 
             var stars = GetRaidBossTier(tier);
             var eventName = "";
@@ -63,9 +75,15 @@ public static class BulkActions
                 End   = new PogoDate(),
                 Type = type,
                 LocalizedStart = true,
-                NoEndTolerance = false,
+                HasEndTolerance = true,
                 Comment = comment,
                 Shiny = enc.Shiny,
+                MinIV = iv,
+                MinLevel = 20,
+                BallRestriction = OnlyPremier,
+                IsGigantamax = Type == BossType.MaxBattleGigantamax,
+                IsFeaturedGOWildArea = false,
+                IsAlwaysSpecialTrade = false,
             };
 
             // set species as available if this encounter is its debut
@@ -95,7 +113,7 @@ public static class BulkActions
         4 => "Four",
         5 => "Five",
         6 => "Six",
-        _ => string.Empty,
+        _ => throw new System.ArgumentOutOfRangeException(nameof(tier)),
     };
 
     public static void AddMonthlyRaidBosses(PogoEncounterList list)
@@ -103,10 +121,10 @@ public static class BulkActions
         var bosses = new List<(ushort Species, byte Form, PogoShiny Shiny, PogoDate Start, PogoDate End, MegaType Mega)>
         {
             // Five-Star
-            new((int)Bulbasaur, 0, Random, new PogoDate(), new PogoDate(), MegaType.None),
+            ((int)Bulbasaur, 0, Random, new(), new(), MegaType.None),
 
             // Mega
-            new((int)Bulbasaur, 0, Random, new PogoDate(), new PogoDate(), MegaType.Normal),
+            ((int)Bulbasaur, 0, Random, new(), new(), MegaType.Normal),
         };
 
         foreach (var enc in bosses)
@@ -126,15 +144,19 @@ public static class BulkActions
                 _ => Raid,
             };
 
+            var iv = type is RaidMythical ? (byte)10 : (byte)1;
             var entry = new PogoEntry
             {
                 Start = enc.Start,
                 End = enc.End,
                 Type = type,
                 LocalizedStart = true,
-                NoEndTolerance = false,
+                HasEndTolerance = true,
                 Comment = comment,
                 Shiny = enc.Shiny,
+                MinIV = iv,
+                MinLevel = 20,
+                BallRestriction = OnlyPremier,
             };
 
             // set species as available if this encounter is its debut
@@ -142,54 +164,63 @@ public static class BulkActions
                 pk.Available = true;
 
             pk.Add(entry); // add the raid entry!
-
-            // add an accompanying GBL encounter if it has not appeared in research before, or continues to appear in the wild
-            if ((!mega) && !pk.Data.Any(z => IsLessRestrictiveEncounter(z.Type) && z.Shiny == enc.Shiny && z.End == null))
-            {
-                // some Special Pokémon are exempt because one of their other forms have been in research, and their form is reverted when sent to HOME
-                if (enc.Species is (int)Giratina or (int)Genesect)
-                    continue;
-                AddEncounterGBL(list, enc.Species, enc.Form, enc.Shiny, enc.Start);
-            }
         }
-
-        static bool IsLessRestrictiveEncounter(PogoType type) => type is Wild or ResearchBreakthrough or SpecialResearch or TimedResearch or CollectionChallenge or
-                                                                                 SpecialMythical or SpecialLevel10 or SpecialLevel20 or SpecialLevelRange or SpecialMythicalLevel10 or SpecialMythicalLevel20 or SpecialMythicalLevelRange or
-                                                                                 TimedMythical or TimedLevel10 or TimedLevel20 or TimedLevelRange or TimedMythicalLevel10 or TimedMythicalLevel20 or TimedMythicalLevelRange;
     }
 
-    private static void AddEncounterGBL(PogoEncounterList list, ushort species, byte form, PogoShiny shiny, PogoDate start)
+    public static void AddLegendaryEncountersGBL(PogoEncounterList list)
     {
-        var pk = list.GetDetails(species, form);
-        var type = SpeciesCategory.IsMythical(species) ? GBLMythical : GBL;
-        var entry = new PogoEntry
+        var legendaries = new List<(ushort Species, byte Form, PogoShiny Shiny)>
         {
-            Start = start,
-            End = SeasonEnd,
-            Type = type,
-            LocalizedStart = true,
-            NoEndTolerance = false,
-            Comment = $"Reward Encounter (Pokémon GO: {Season})",
-            Shiny = shiny,
+            ((int)Articuno, 0, Random),
         };
 
-        pk.Add(entry); // add the GBL entry!
+        foreach (var enc in legendaries)
+        {
+            var pk = list.GetDetails(enc.Species, enc.Form);
+            if (pk.Data.Any(z => IsRevertFormOnTransfer(enc.Species) || IsLessRestrictiveEncounter(z.Type) && z.Shiny == enc.Shiny && z.End == null))
+                continue;
+            var type = SpeciesCategory.IsMythical(enc.Species) ? GBLMythical : GBL;
+            var iv = type is GBLMythical ? (byte)10 : (byte)1;
+            var entry = new PogoEntry
+            {
+                Start = new PogoDate(),
+                End = SeasonEnd,
+                Type = type,
+                LocalizedStart = true,
+                HasEndTolerance = true,
+                Comment = $"Reward Encounter (GO Battle League: {Season})",
+                Shiny = enc.Shiny,
+                MinIV = iv,
+                MinLevel = 20,
+                BallRestriction = StandardMaster,
+            };
+
+            // set species as available if this encounter is its debut
+            if (!pk.Available)
+                pk.Available = true;
+
+            pk.Add(entry); // add the GBL entry!
+        }
+
+        static bool IsRevertFormOnTransfer(ushort species) => species is (ushort)Giratina or (ushort)Genesect;
+
+        static bool IsLessRestrictiveEncounter(PogoType type) => type is Wild or ResearchBreakthrough or SpecialResearch or TimedResearch or CollectionChallenge;
     }
 
     public static void AddNewShadows(PogoEncounterList list)
     {
         var removed = new List<(ushort Species, byte Form)>
         {
-            new((int)Bulbasaur, 0),
+            ((int)Bulbasaur, 0),
         };
 
         var added = new List<(ushort Species, byte Form, PogoShiny Shiny)>
         {
-            new((int)Bulbasaur, 0, Random),
+            ((int)Bulbasaur, 0, Random),
         };
 
         // add end dates for Shadows that have been removed
-        foreach ((ushort s, byte f) in removed)
+        foreach (var (s, f) in removed)
         {
             var pk = list.GetDetails(s, f);
             var entries = pk.Data;
@@ -202,7 +233,7 @@ public static class BulkActions
         }
 
         // add new Shadows
-        foreach ((ushort s, byte f, PogoShiny shiny) in added)
+        foreach (var (s, f, shiny) in added)
         {
             var pk = list.GetDetails(s, f);
             var entry = new PogoEntry
@@ -211,8 +242,11 @@ public static class BulkActions
                 Shiny = shiny,
                 Type = Shadow,
                 LocalizedStart = true,
-                NoEndTolerance = false,
+                HasEndTolerance = true,
                 Comment = "Team GO Rocket Grunt",
+                MinIV = 1,
+                MinLevel = 8,
+                BallRestriction = OnlyPremier,
             };
 
             pk.Add(entry);
@@ -238,7 +272,7 @@ public static class BulkActions
             Krabby => 1,
             Hitmonlee => 3,
             Hitmonchan => 3,
-            Rhyhorn => 2, // verify
+            Rhyhorn => 1,
             Chansey => 3,
             Electabuzz => 3,
             Magmar => 3,
@@ -248,6 +282,7 @@ public static class BulkActions
             Kabuto => 1,
             Hoothoot => 1,
             Shuckle => 2,
+            Sneasel => 2,
             Hitmontop => 3,
             Ralts => 1,
             Sableye => 3,
@@ -266,6 +301,7 @@ public static class BulkActions
             Trubbish => 1,
             Cryogonal => 3,
             Deino => 3,
+            Espurr => 1, // verify
             Inkay => 1,
             Bounsweet => 1,
             Passimian => 3,
@@ -277,6 +313,7 @@ public static class BulkActions
             Rookidee => 1,
             Wooloo => 1,
             Toxtricity => 4,
+            Sizzlipede => 1,
             Hatenna => 1,
             Falinks => 3,
             Duraludon => 4,

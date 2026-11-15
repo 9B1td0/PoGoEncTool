@@ -31,7 +31,7 @@ public static class PogoPickler
     {
         using var ms = new MemoryStream();
         using var bw = new BinaryWriter(ms);
-        entry.Data.RemoveAll(z => z.Type.IsGigantamax);
+        entry.Data.RemoveAll(z => z.IsGigantamax);
 
         if (!GetCanTransferIfShiny(entry.Species, entry.Form))
         {
@@ -48,14 +48,40 @@ public static class PogoPickler
         return ms.ToArray();
     }
 
+    private const ushort DateNone = 0;
+
+#pragma warning disable IDE0004
     private static void Write(PogoEntry entry, BinaryWriter bw)
     {
-        bw.Write(entry.Start?.Write(entry.LocalizedStart ? -1 : 0) ?? 0);
-        bw.Write(entry.End?.Write(!entry.NoEndTolerance ? 1 : 0) ?? 0);
+        bw.Write(entry.Start?.Write(entry.LocalizedStart ? -1 : 0) ?? DateNone);
+        bw.Write(entry.End?.Write(entry.HasEndTolerance ? 1 : 0) ?? DateNone);
 
-        byte sg = (byte) (PogoToHex(entry.Shiny) | (PogoToHex(entry.Gender) << 6));
-        bw.Write(sg);
+        bw.Write((byte)PogoToHex(entry.Shiny));
+        bw.Write((byte)PogoToHex(entry.Gender));
         bw.Write((byte)entry.Type);
+        bw.Write((byte)(entry.BallRestriction ?? PogoBallRestriction.Standard));
+
+        bw.Write((byte)GetFlags(entry));
+        bw.Write((byte)(entry.MinLevel ?? 1));
+        bw.Write((byte)(entry.MinIV ?? 0));
+        bw.Write((byte)(0));
+    }
+#pragma warning restore IDE0004
+
+    public static byte GetFlags(PogoEntry entry)
+    {
+        byte result = 0;
+        if (entry.LocalizedStart)
+            result |= 1;
+        if (entry.HasEndTolerance)
+            result |= 2;
+        if (entry.IsFeaturedGOWildArea)
+            result |= 4;
+        if (entry.IsGigantamax)
+            result |= 8;
+        if (entry.IsAlwaysSpecialTrade)
+            result |= 16;
+        return result;
     }
 
     public enum PogoImportFormat : byte
@@ -159,7 +185,7 @@ public static class PogoPickler
 
     private static bool GetCanTransferIfShiny(ushort species, byte form) => (Species)species switch
     {
-        Flamigo => false,
+        Blipbug or Dottler or Orbeetle => false,
         _ => true,
     };
 }

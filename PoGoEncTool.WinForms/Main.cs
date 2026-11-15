@@ -40,6 +40,7 @@ public partial class Main : Form
         // BulkActions.AddBossEncounters(Entries);
         // BulkActions.AddNewShadows(Entries);
         // BulkActions.AddMonthlyRaidBosses(Entries);
+        // BulkActions.AddLegendaryEncountersGBL(Entries);
 
         LoadEntries();
         InitializeDataSources();
@@ -134,7 +135,7 @@ public partial class Main : Form
         var forms = FormConverter.GetFormList(species, GameInfo.Strings.Types, GameInfo.Strings.forms, GameInfo.GenderSymbolASCII, Latest.Context);
         var prefer = species switch
         {
-          //(ushort)Species.Minior => 7,
+            (ushort)Species.Minior => 9, // Meteor Form is a battle-only form
             (ushort)Species.Gimmighoul => 1, // GO is always Roaming Form
             _ => 0,
         };
@@ -421,15 +422,15 @@ public partial class Main : Form
 
                     var method = enc.Type switch
                     {
-                        >= Wild and <= WildLevel25 => "Wild",
+                        Wild => "Wild",
                         Egg => "Egg",
                         Egg12km => "12 km Egg",
-                        Raid or RaidMythical or RaidUltraBeast or RaidGOWA or RaidMythicalGOWA or RaidUltraBeastGOWA => "Raid",
-                        RaidShadow or RaidShadowMythical or RaidShadowGOWA or RaidShadowMythicalGOWA => "Shadow Raid",
-                        (>= FieldResearch and <= TimedShadowMythicalLevelRange) or PremierBallBug or PremierBallBugMythical => "Research",
+                        Raid or RaidMythical or RaidUltraBeast => "Raid",
+                        RaidShadow or RaidShadowMythical or RaidShadowUltraBeast => "Shadow Raid",
+                        (>= FieldResearch and <= ReferralBonus) or PremierBallBug or PremierBallBugMythical => "Research",
                         >= GBL and <= GBLEvent => "GO Battle League",
                         >= Shadow and <= ShadowUltraBeast => "Shadow",
-                        >= MaxBattle and <= MaxBattleGigantamaxGOWA => "Max Battle",
+                        >= MaxBattle and <= MaxBattleGigantamax => "Max Battle",
                         _ => throw new ArgumentOutOfRangeException(nameof(enc.Type)),
                     };
 

@@ -1,14 +1,15 @@
-﻿using System;
-using System.Text.Json.Serialization;
+using System;
+using System.ComponentModel;
 
 namespace PoGoEncTool.Core;
 
 [Serializable]
+[TypeConverter(typeof(PogoDateValueConverter))]
 public sealed record PogoDate(int Year, int Month, int Day) : IComparable<PogoDate>
 {
-    [JsonPropertyName("Y")] public int Year { get; set; } = Year;
-    [JsonPropertyName("M")] public int Month { get; set; } = Month;
-    [JsonPropertyName("D")] public int Day { get; set; } = Day;
+    public int Year { get; set; } = Year;
+    public int Month { get; set; } = Month;
+    public int Day { get; set; } = Day;
 
     public static PogoDate CreateNew() => new(DateTime.Now);
     public PogoDate(in DateTime value) : this(value.Year, value.Month, value.Day) { }
@@ -19,18 +20,10 @@ public sealed record PogoDate(int Year, int Month, int Day) : IComparable<PogoDa
 
     public static DateTime GetDateTime(PogoDate? date) => date == null ? DateTime.Now : new DateTime(date.Year, date.Month, date.Day);
 
-    public int Write() => (Year << 16) | (Month << 8) | Day;
-
-    public int Write(in int delta)
-    {
-        if (delta == 0)
-            return Write();
-
-        var date = GetDateTime(this);
-        var update = date.AddDays(delta);
-        var obj = new PogoDate(update);
-        return obj.Write();
-    }
+    internal const int FirstDay = 736150 - 1; // 2016-07-06 (Launch Day)
+    private ushort Write() => GetRelativeDay(new DateOnly(Year, Month, Day).DayNumber);
+    private static ushort GetRelativeDay(int dayNumber) => (ushort)(dayNumber - FirstDay);
+    public ushort Write(in int delta) => (ushort)(Write() + delta);
 
     public int CompareTo(PogoDate? p) => Write().CompareTo(p?.Write());
 }
